@@ -1,0 +1,2151 @@
+{
+  "mode": "fusion",
+  "ticket_from": "top",
+  "random_from": 5,
+  "play_line": {
+    "main_numbers": [
+      4,
+      13,
+      31,
+      36,
+      40
+    ],
+    "lucky_stars": [
+      5,
+      7
+    ],
+    "sum": 124,
+    "tiers": {
+      "mild": 4,
+      "cold": 1
+    },
+    "ticket_from": "top",
+    "fusion_rank": 1,
+    "fusion_score": 159.95389999999998
+  },
+  "position_filter": true,
+  "position_band": 70,
+  "position_limits": {
+    "band_pct": 70,
+    "percentile_lo": 15.0,
+    "percentile_hi": 85.0,
+    "main": [
+      {
+        "position": 1,
+        "from": 2,
+        "to": 16,
+        "label": "main_1_smallest_to_largest"
+      },
+      {
+        "position": 2,
+        "from": 8,
+        "to": 26,
+        "label": "main_2_smallest_to_largest"
+      },
+      {
+        "position": 3,
+        "from": 15,
+        "to": 36,
+        "label": "main_3_smallest_to_largest"
+      },
+      {
+        "position": 4,
+        "from": 25,
+        "to": 43,
+        "label": "main_4_smallest_to_largest"
+      },
+      {
+        "position": 5,
+        "from": 36,
+        "to": 49,
+        "label": "main_5_smallest_to_largest"
+      }
+    ],
+    "stars": [
+      {
+        "position": 1,
+        "from": 2,
+        "to": 7
+      },
+      {
+        "position": 2,
+        "from": 6,
+        "to": 12
+      }
+    ]
+  },
+  "sorted_position_ranges": {
+    "band_pct": 70,
+    "percentile_lo": 15.0,
+    "percentile_hi": 85.0,
+    "note": "Position 1 = lowest main; position 5 = highest. range_band is where ~70% of historical values fell (15th\u201385th percentile).",
+    "main_positions": [
+      {
+        "position": 1,
+        "label": "main_1_smallest_to_largest",
+        "min": 1,
+        "max": 35,
+        "mean": 8.5,
+        "range_band": {
+          "from": 2,
+          "to": 16,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "range_70_percent": {
+          "from": 2,
+          "to": 16,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "absolute_range_in_history": {
+          "from": 1,
+          "to": 35
+        },
+        "most_common": [
+          {
+            "value": 2,
+            "count": 102
+          },
+          {
+            "value": 1,
+            "count": 92
+          },
+          {
+            "value": 3,
+            "count": 86
+          }
+        ]
+      },
+      {
+        "position": 2,
+        "label": "main_2_smallest_to_largest",
+        "min": 2,
+        "max": 39,
+        "mean": 16.8,
+        "range_band": {
+          "from": 8,
+          "to": 26,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "range_70_percent": {
+          "from": 8,
+          "to": 26,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "absolute_range_in_history": {
+          "from": 2,
+          "to": 39
+        },
+        "most_common": [
+          {
+            "value": 17,
+            "count": 52
+          },
+          {
+            "value": 20,
+            "count": 50
+          },
+          {
+            "value": 16,
+            "count": 49
+          }
+        ]
+      },
+      {
+        "position": 3,
+        "label": "main_3_smallest_to_largest",
+        "min": 4,
+        "max": 47,
+        "mean": 25.6,
+        "range_band": {
+          "from": 15,
+          "to": 36,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "range_70_percent": {
+          "from": 15,
+          "to": 36,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "absolute_range_in_history": {
+          "from": 4,
+          "to": 47
+        },
+        "most_common": [
+          {
+            "value": 29,
+            "count": 49
+          },
+          {
+            "value": 27,
+            "count": 46
+          },
+          {
+            "value": 24,
+            "count": 44
+          }
+        ]
+      },
+      {
+        "position": 4,
+        "label": "main_4_smallest_to_largest",
+        "min": 9,
+        "max": 49,
+        "mean": 34.2,
+        "range_band": {
+          "from": 25,
+          "to": 43,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "range_70_percent": {
+          "from": 25,
+          "to": 43,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "absolute_range_in_history": {
+          "from": 9,
+          "to": 49
+        },
+        "most_common": [
+          {
+            "value": 35,
+            "count": 54
+          },
+          {
+            "value": 34,
+            "count": 50
+          },
+          {
+            "value": 42,
+            "count": 50
+          }
+        ]
+      },
+      {
+        "position": 5,
+        "label": "main_5_smallest_to_largest",
+        "min": 16,
+        "max": 50,
+        "mean": 42.7,
+        "range_band": {
+          "from": 36,
+          "to": 49,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "range_70_percent": {
+          "from": 36,
+          "to": 49,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "absolute_range_in_history": {
+          "from": 16,
+          "to": 50
+        },
+        "most_common": [
+          {
+            "value": 48,
+            "count": 100
+          },
+          {
+            "value": 50,
+            "count": 98
+          },
+          {
+            "value": 49,
+            "count": 94
+          }
+        ]
+      }
+    ],
+    "lucky_star_positions": [
+      {
+        "position": 1,
+        "label": "star_1_smallest_to_largest",
+        "min": 1,
+        "max": 11,
+        "mean": 4.2,
+        "range_band": {
+          "from": 2,
+          "to": 7,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "range_70_percent": {
+          "from": 2,
+          "to": 7,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "absolute_range_in_history": {
+          "from": 1,
+          "to": 11
+        },
+        "most_common": [
+          {
+            "value": 2,
+            "count": 200
+          },
+          {
+            "value": 3,
+            "count": 162
+          },
+          {
+            "value": 1,
+            "count": 154
+          }
+        ]
+      },
+      {
+        "position": 2,
+        "label": "star_2_smallest_to_largest",
+        "min": 2,
+        "max": 12,
+        "mean": 8.7,
+        "range_band": {
+          "from": 6,
+          "to": 12,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "range_70_percent": {
+          "from": 6,
+          "to": 12,
+          "band_pct": 70,
+          "percentile_lo": 15.0,
+          "percentile_hi": 85.0
+        },
+        "absolute_range_in_history": {
+          "from": 2,
+          "to": 12
+        },
+        "most_common": [
+          {
+            "value": 12,
+            "count": 176
+          },
+          {
+            "value": 11,
+            "count": 152
+          },
+          {
+            "value": 10,
+            "count": 137
+          }
+        ]
+      }
+    ]
+  },
+  "sum_band": {
+    "min": 95,
+    "max": 159
+  },
+  "disclaimer": "Fusion lines are fair random draws filtered and ranked by history-shaped rules. They are not more likely to win than any other valid ticket.",
+  "draws_analyzed": 1044,
+  "fusion_meta": {
+    "pool_generated": 50000,
+    "pool_attempts": 50103,
+    "pool_target": 50000,
+    "enhanced_candidates": 0,
+    "lookback": 0,
+    "decay": 0.97,
+    "seed": null,
+    "flat_stars": false,
+    "exclude_stars": []
+  },
+  "unique_approach": [
+    "Random: each ticket from secrets (mechanical draw), not combinatorial search",
+    "Filter: sum, parity, high/low, cold-ball mix, sorted position bands (~70% history)",
+    "Rank: enhanced score (decay frequency, pairs, sum centre, stars)",
+    "Diversify: star pairs capped so list is not identical"
+  ],
+  "fusion_lines": [
+    {
+      "rank": 1,
+      "score": 159.95389999999998,
+      "main_numbers": [
+        4,
+        13,
+        31,
+        36,
+        40
+      ],
+      "lucky_stars": [
+        5,
+        7
+      ],
+      "sum": 124,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.31,
+        "delta_pattern": 9.5,
+        "stars": 10.89,
+        "total": 159.95,
+        "rules": {
+          "sum": 124,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 4,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.25,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 2,
+      "score": 159.6153,
+      "main_numbers": [
+        4,
+        12,
+        31,
+        36,
+        41
+      ],
+      "lucky_stars": [
+        5,
+        10
+      ],
+      "sum": 124,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.33,
+        "delta_pattern": 9.0,
+        "stars": 11.18,
+        "total": 159.62,
+        "rules": {
+          "sum": 124,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 3,
+          "cold": 1,
+          "hot": 1
+        },
+        "pair_cohesion": 11.85,
+        "sum_center": 7.25,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 3,
+      "score": 159.5586,
+      "main_numbers": [
+        12,
+        13,
+        17,
+        38,
+        48
+      ],
+      "lucky_stars": [
+        5,
+        10
+      ],
+      "sum": 128,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.13,
+        "delta_pattern": 8.5,
+        "stars": 11.18,
+        "total": 159.56,
+        "rules": {
+          "sum": 128,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 3,
+          "hot": 1,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.75,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 4,
+      "score": 159.4943,
+      "main_numbers": [
+        3,
+        13,
+        31,
+        36,
+        42
+      ],
+      "lucky_stars": [
+        6,
+        10
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.08,
+        "delta_pattern": 9.0,
+        "stars": 10.92,
+        "total": 159.49,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 3,
+          "cold": 1,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.5,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 5,
+      "score": 159.47490000000002,
+      "main_numbers": [
+        4,
+        13,
+        31,
+        35,
+        38
+      ],
+      "lucky_stars": [
+        6,
+        12
+      ],
+      "sum": 121,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 21.26,
+        "delta_pattern": 8.5,
+        "stars": 11.21,
+        "total": 159.47,
+        "rules": {
+          "sum": 121,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 4,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 6.5,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 6,
+      "score": 159.386,
+      "main_numbers": [
+        16,
+        18,
+        22,
+        31,
+        41
+      ],
+      "lucky_stars": [
+        5,
+        9
+      ],
+      "sum": 128,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.35,
+        "delta_pattern": 8.0,
+        "stars": 11.29,
+        "total": 159.39,
+        "rules": {
+          "sum": 128,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 3,
+          "cold": 1,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.75,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 7,
+      "score": 159.3675,
+      "main_numbers": [
+        12,
+        13,
+        17,
+        38,
+        49
+      ],
+      "lucky_stars": [
+        5,
+        8
+      ],
+      "sum": 129,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.41,
+        "delta_pattern": 9.0,
+        "stars": 11.45,
+        "total": 159.37,
+        "rules": {
+          "sum": 129,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 2,
+          "hot": 1,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.5,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 8,
+      "score": 159.19819999999999,
+      "main_numbers": [
+        13,
+        17,
+        27,
+        34,
+        36
+      ],
+      "lucky_stars": [
+        5,
+        6
+      ],
+      "sum": 127,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.9,
+        "delta_pattern": 8.0,
+        "stars": 11.3,
+        "total": 159.2,
+        "rules": {
+          "sum": 127,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 1,
+          "hot": 2,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 8.0,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 9,
+      "score": 159.1495,
+      "main_numbers": [
+        12,
+        13,
+        18,
+        36,
+        47
+      ],
+      "lucky_stars": [
+        6,
+        9
+      ],
+      "sum": 126,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.42,
+        "delta_pattern": 9.0,
+        "stars": 11.03,
+        "total": 159.15,
+        "rules": {
+          "sum": 126,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 4,
+          "cold": 1
+        },
+        "pair_cohesion": 10.95,
+        "sum_center": 7.75,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 10,
+      "score": 159.1421,
+      "main_numbers": [
+        5,
+        14,
+        32,
+        36,
+        41
+      ],
+      "lucky_stars": [
+        5,
+        12
+      ],
+      "sum": 128,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.42,
+        "delta_pattern": 9.5,
+        "stars": 11.47,
+        "total": 159.14,
+        "rules": {
+          "sum": 128,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "hot": 3,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.75,
+        "origin": "fair_random_simulation"
+      }
+    }
+  ],
+  "top_suggested_lines": [
+    {
+      "rank": 1,
+      "score": 159.95389999999998,
+      "main_numbers": [
+        4,
+        13,
+        31,
+        36,
+        40
+      ],
+      "lucky_stars": [
+        5,
+        7
+      ],
+      "sum": 124,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.31,
+        "delta_pattern": 9.5,
+        "stars": 10.89,
+        "total": 159.95,
+        "rules": {
+          "sum": 124,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 4,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.25,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 2,
+      "score": 159.6153,
+      "main_numbers": [
+        4,
+        12,
+        31,
+        36,
+        41
+      ],
+      "lucky_stars": [
+        5,
+        10
+      ],
+      "sum": 124,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.33,
+        "delta_pattern": 9.0,
+        "stars": 11.18,
+        "total": 159.62,
+        "rules": {
+          "sum": 124,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 3,
+          "cold": 1,
+          "hot": 1
+        },
+        "pair_cohesion": 11.85,
+        "sum_center": 7.25,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 3,
+      "score": 159.5586,
+      "main_numbers": [
+        12,
+        13,
+        17,
+        38,
+        48
+      ],
+      "lucky_stars": [
+        5,
+        10
+      ],
+      "sum": 128,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.13,
+        "delta_pattern": 8.5,
+        "stars": 11.18,
+        "total": 159.56,
+        "rules": {
+          "sum": 128,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 3,
+          "hot": 1,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.75,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 4,
+      "score": 159.4943,
+      "main_numbers": [
+        3,
+        13,
+        31,
+        36,
+        42
+      ],
+      "lucky_stars": [
+        6,
+        10
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.08,
+        "delta_pattern": 9.0,
+        "stars": 10.92,
+        "total": 159.49,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 3,
+          "cold": 1,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.5,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 5,
+      "score": 159.47490000000002,
+      "main_numbers": [
+        4,
+        13,
+        31,
+        35,
+        38
+      ],
+      "lucky_stars": [
+        6,
+        12
+      ],
+      "sum": 121,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 21.26,
+        "delta_pattern": 8.5,
+        "stars": 11.21,
+        "total": 159.47,
+        "rules": {
+          "sum": 121,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 4,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 6.5,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 6,
+      "score": 159.386,
+      "main_numbers": [
+        16,
+        18,
+        22,
+        31,
+        41
+      ],
+      "lucky_stars": [
+        5,
+        9
+      ],
+      "sum": 128,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.35,
+        "delta_pattern": 8.0,
+        "stars": 11.29,
+        "total": 159.39,
+        "rules": {
+          "sum": 128,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 3,
+          "cold": 1,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.75,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 7,
+      "score": 159.3675,
+      "main_numbers": [
+        12,
+        13,
+        17,
+        38,
+        49
+      ],
+      "lucky_stars": [
+        5,
+        8
+      ],
+      "sum": 129,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.41,
+        "delta_pattern": 9.0,
+        "stars": 11.45,
+        "total": 159.37,
+        "rules": {
+          "sum": 129,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 2,
+          "hot": 1,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.5,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 8,
+      "score": 159.19819999999999,
+      "main_numbers": [
+        13,
+        17,
+        27,
+        34,
+        36
+      ],
+      "lucky_stars": [
+        5,
+        6
+      ],
+      "sum": 127,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.9,
+        "delta_pattern": 8.0,
+        "stars": 11.3,
+        "total": 159.2,
+        "rules": {
+          "sum": 127,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 1,
+          "hot": 2,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 8.0,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 9,
+      "score": 159.1495,
+      "main_numbers": [
+        12,
+        13,
+        18,
+        36,
+        47
+      ],
+      "lucky_stars": [
+        6,
+        9
+      ],
+      "sum": 126,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.42,
+        "delta_pattern": 9.0,
+        "stars": 11.03,
+        "total": 159.15,
+        "rules": {
+          "sum": 126,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 4,
+          "cold": 1
+        },
+        "pair_cohesion": 10.95,
+        "sum_center": 7.75,
+        "origin": "fair_random_simulation"
+      }
+    },
+    {
+      "rank": 10,
+      "score": 159.1421,
+      "main_numbers": [
+        5,
+        14,
+        32,
+        36,
+        41
+      ],
+      "lucky_stars": [
+        5,
+        12
+      ],
+      "sum": 128,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.42,
+        "delta_pattern": 9.5,
+        "stars": 11.47,
+        "total": 159.14,
+        "rules": {
+          "sum": 128,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "hot": 3,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.75,
+        "origin": "fair_random_simulation"
+      }
+    }
+  ],
+  "consensus_line": {
+    "main_numbers": [
+      12,
+      13,
+      31,
+      36,
+      41
+    ],
+    "lucky_stars": [
+      5,
+      6
+    ],
+    "sum": 133,
+    "tiers": {
+      "mild": 3,
+      "cold": 1,
+      "hot": 1
+    },
+    "repeat_score": 36,
+    "lines_used": 10,
+    "main_appearances": {
+      "12": 4,
+      "13": 7,
+      "31": 5,
+      "36": 6,
+      "41": 3
+    },
+    "star_appearances": {
+      "5": 7,
+      "6": 4
+    },
+    "most_repeated_mains": [
+      {
+        "number": 13,
+        "count": 7,
+        "tier": "mild"
+      },
+      {
+        "number": 36,
+        "count": 6,
+        "tier": "cold"
+      },
+      {
+        "number": 31,
+        "count": 5,
+        "tier": "mild"
+      },
+      {
+        "number": 12,
+        "count": 4,
+        "tier": "mild"
+      },
+      {
+        "number": 4,
+        "count": 3,
+        "tier": "mild"
+      },
+      {
+        "number": 41,
+        "count": 3,
+        "tier": "hot"
+      },
+      {
+        "number": 17,
+        "count": 3,
+        "tier": "hot"
+      },
+      {
+        "number": 38,
+        "count": 3,
+        "tier": "cold"
+      },
+      {
+        "number": 18,
+        "count": 2,
+        "tier": "mild"
+      },
+      {
+        "number": 40,
+        "count": 1,
+        "tier": "mild"
+      }
+    ],
+    "most_repeated_stars": [
+      {
+        "number": 5,
+        "count": 7,
+        "tier": "hot"
+      },
+      {
+        "number": 6,
+        "count": 4,
+        "tier": "hot"
+      },
+      {
+        "number": 10,
+        "count": 3,
+        "tier": "mild"
+      },
+      {
+        "number": 12,
+        "count": 2,
+        "tier": "mild"
+      }
+    ]
+  },
+  "enhanced_reference_lines": [],
+  "top_15_main_numbers_by_score": [
+    {
+      "number": 13,
+      "score": 1.5499,
+      "tier": "mild",
+      "weighted_frequency": 3.06,
+      "draws_since_last_seen": 26,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 4,
+      "score": 1.4839,
+      "tier": "mild",
+      "weighted_frequency": 3.83,
+      "draws_since_last_seen": 11,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 46,
+      "score": 1.4579,
+      "tier": "mild",
+      "weighted_frequency": 3.97,
+      "draws_since_last_seen": 8,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 31,
+      "score": 1.4345,
+      "tier": "mild",
+      "weighted_frequency": 3.54,
+      "draws_since_last_seen": 10,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 18,
+      "score": 1.4325,
+      "tier": "mild",
+      "weighted_frequency": 3.52,
+      "draws_since_last_seen": 10,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 41,
+      "score": 1.4282,
+      "tier": "hot",
+      "weighted_frequency": 4.44,
+      "draws_since_last_seen": 9,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 35,
+      "score": 1.4217,
+      "tier": "mild",
+      "weighted_frequency": 3.78,
+      "draws_since_last_seen": 7,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 47,
+      "score": 1.3941,
+      "tier": "mild",
+      "weighted_frequency": 4.86,
+      "draws_since_last_seen": 2,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 33,
+      "score": 1.3858,
+      "tier": "mild",
+      "weighted_frequency": 3.95,
+      "draws_since_last_seen": 3,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 6,
+      "score": 1.3801,
+      "tier": "hot",
+      "weighted_frequency": 4.75,
+      "draws_since_last_seen": 7,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 26,
+      "score": 1.3748,
+      "tier": "hot",
+      "weighted_frequency": 4.22,
+      "draws_since_last_seen": 7,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 27,
+      "score": 1.3649,
+      "tier": "cold",
+      "weighted_frequency": 2.49,
+      "draws_since_last_seen": 31,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 5,
+      "score": 1.364,
+      "tier": "hot",
+      "weighted_frequency": 4.48,
+      "draws_since_last_seen": 4,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 25,
+      "score": 1.3605,
+      "tier": "mild",
+      "weighted_frequency": 3.5,
+      "draws_since_last_seen": 5,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 16,
+      "score": 1.3602,
+      "tier": "mild",
+      "weighted_frequency": 3.3,
+      "draws_since_last_seen": 7,
+      "parity": "even",
+      "field": "low"
+    }
+  ],
+  "top_lucky_stars_by_score": [
+    {
+      "number": 5,
+      "score": 1.1561,
+      "tier": "hot",
+      "weighted_frequency": 7.36,
+      "draws_since_last_seen": 4
+    },
+    {
+      "number": 12,
+      "score": 1.1385,
+      "tier": "mild",
+      "weighted_frequency": 6.12,
+      "draws_since_last_seen": 2
+    },
+    {
+      "number": 8,
+      "score": 1.1345,
+      "tier": "mild",
+      "weighted_frequency": 5.87,
+      "draws_since_last_seen": 3
+    },
+    {
+      "number": 6,
+      "score": 1.1035,
+      "tier": "hot",
+      "weighted_frequency": 6.24,
+      "draws_since_last_seen": 6
+    },
+    {
+      "number": 9,
+      "score": 1.1016,
+      "tier": "hot",
+      "weighted_frequency": 7.19,
+      "draws_since_last_seen": 1
+    },
+    {
+      "number": 10,
+      "score": 1.0801,
+      "tier": "mild",
+      "weighted_frequency": 5.53,
+      "draws_since_last_seen": 1
+    }
+  ],
+  "all_main_ranked": [
+    {
+      "number": 13,
+      "score": 1.5499,
+      "tier": "mild",
+      "weighted_frequency": 3.06,
+      "draws_since_last_seen": 26,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 4,
+      "score": 1.4839,
+      "tier": "mild",
+      "weighted_frequency": 3.83,
+      "draws_since_last_seen": 11,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 46,
+      "score": 1.4579,
+      "tier": "mild",
+      "weighted_frequency": 3.97,
+      "draws_since_last_seen": 8,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 31,
+      "score": 1.4345,
+      "tier": "mild",
+      "weighted_frequency": 3.54,
+      "draws_since_last_seen": 10,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 18,
+      "score": 1.4325,
+      "tier": "mild",
+      "weighted_frequency": 3.52,
+      "draws_since_last_seen": 10,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 41,
+      "score": 1.4282,
+      "tier": "hot",
+      "weighted_frequency": 4.44,
+      "draws_since_last_seen": 9,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 35,
+      "score": 1.4217,
+      "tier": "mild",
+      "weighted_frequency": 3.78,
+      "draws_since_last_seen": 7,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 47,
+      "score": 1.3941,
+      "tier": "mild",
+      "weighted_frequency": 4.86,
+      "draws_since_last_seen": 2,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 33,
+      "score": 1.3858,
+      "tier": "mild",
+      "weighted_frequency": 3.95,
+      "draws_since_last_seen": 3,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 6,
+      "score": 1.3801,
+      "tier": "hot",
+      "weighted_frequency": 4.75,
+      "draws_since_last_seen": 7,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 26,
+      "score": 1.3748,
+      "tier": "hot",
+      "weighted_frequency": 4.22,
+      "draws_since_last_seen": 7,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 27,
+      "score": 1.3649,
+      "tier": "cold",
+      "weighted_frequency": 2.49,
+      "draws_since_last_seen": 31,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 5,
+      "score": 1.364,
+      "tier": "hot",
+      "weighted_frequency": 4.48,
+      "draws_since_last_seen": 4,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 25,
+      "score": 1.3605,
+      "tier": "mild",
+      "weighted_frequency": 3.5,
+      "draws_since_last_seen": 5,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 16,
+      "score": 1.3602,
+      "tier": "mild",
+      "weighted_frequency": 3.3,
+      "draws_since_last_seen": 7,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 29,
+      "score": 1.3543,
+      "tier": "mild",
+      "weighted_frequency": 3.57,
+      "draws_since_last_seen": 4,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 44,
+      "score": 1.3515,
+      "tier": "hot",
+      "weighted_frequency": 4.15,
+      "draws_since_last_seen": 6,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 12,
+      "score": 1.347,
+      "tier": "mild",
+      "weighted_frequency": 3.86,
+      "draws_since_last_seen": 1,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 45,
+      "score": 1.3352,
+      "tier": "hot",
+      "weighted_frequency": 4.24,
+      "draws_since_last_seen": 4,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 34,
+      "score": 1.3308,
+      "tier": "hot",
+      "weighted_frequency": 4.52,
+      "draws_since_last_seen": 1,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 14,
+      "score": 1.3274,
+      "tier": "hot",
+      "weighted_frequency": 4.73,
+      "draws_since_last_seen": 3,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 39,
+      "score": 1.3192,
+      "tier": "mild",
+      "weighted_frequency": 3.74,
+      "draws_since_last_seen": 0,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 42,
+      "score": 1.313,
+      "tier": "hot",
+      "weighted_frequency": 4.73,
+      "draws_since_last_seen": 2,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 48,
+      "score": 1.3107,
+      "tier": "mild",
+      "weighted_frequency": 3.33,
+      "draws_since_last_seen": 3,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 3,
+      "score": 1.3102,
+      "tier": "mild",
+      "weighted_frequency": 3.67,
+      "draws_since_last_seen": 0,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 17,
+      "score": 1.3033,
+      "tier": "hot",
+      "weighted_frequency": 5.08,
+      "draws_since_last_seen": 5,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 10,
+      "score": 1.2931,
+      "tier": "hot",
+      "weighted_frequency": 4.13,
+      "draws_since_last_seen": 2,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 23,
+      "score": 1.2849,
+      "tier": "hot",
+      "weighted_frequency": 4.17,
+      "draws_since_last_seen": 1,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 28,
+      "score": 1.2825,
+      "tier": "hot",
+      "weighted_frequency": 4.27,
+      "draws_since_last_seen": 0,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 8,
+      "score": 1.2395,
+      "tier": "hot",
+      "weighted_frequency": 5.04,
+      "draws_since_last_seen": 0,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 24,
+      "score": 1.2359,
+      "tier": "cold",
+      "weighted_frequency": 1.98,
+      "draws_since_last_seen": 40,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 19,
+      "score": 1.219,
+      "tier": "mild",
+      "weighted_frequency": 3.02,
+      "draws_since_last_seen": 2,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 40,
+      "score": 1.217,
+      "tier": "mild",
+      "weighted_frequency": 3.07,
+      "draws_since_last_seen": 1,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 38,
+      "score": 1.1983,
+      "tier": "cold",
+      "weighted_frequency": 2.22,
+      "draws_since_last_seen": 18,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 2,
+      "score": 1.1781,
+      "tier": "hot",
+      "weighted_frequency": 5.45,
+      "draws_since_last_seen": 0,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 43,
+      "score": 1.1773,
+      "tier": "cold",
+      "weighted_frequency": 2.08,
+      "draws_since_last_seen": 19,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 7,
+      "score": 1.1688,
+      "tier": "cold",
+      "weighted_frequency": 2.49,
+      "draws_since_last_seen": 11,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 37,
+      "score": 1.1553,
+      "tier": "hot",
+      "weighted_frequency": 5.78,
+      "draws_since_last_seen": 2,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 22,
+      "score": 1.1271,
+      "tier": "cold",
+      "weighted_frequency": 2.33,
+      "draws_since_last_seen": 11,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 9,
+      "score": 1.115,
+      "tier": "cold",
+      "weighted_frequency": 2.11,
+      "draws_since_last_seen": 14,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 36,
+      "score": 1.0845,
+      "tier": "cold",
+      "weighted_frequency": 2.32,
+      "draws_since_last_seen": 8,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 49,
+      "score": 1.073,
+      "tier": "cold",
+      "weighted_frequency": 2.0,
+      "draws_since_last_seen": 13,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 1,
+      "score": 1.0703,
+      "tier": "mild",
+      "weighted_frequency": 2.22,
+      "draws_since_last_seen": 6,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 20,
+      "score": 1.0556,
+      "tier": "cold",
+      "weighted_frequency": 1.66,
+      "draws_since_last_seen": 18,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 50,
+      "score": 1.0241,
+      "tier": "cold",
+      "weighted_frequency": 1.15,
+      "draws_since_last_seen": 38,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 11,
+      "score": 1.0188,
+      "tier": "cold",
+      "weighted_frequency": 1.13,
+      "draws_since_last_seen": 30,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 30,
+      "score": 0.9937,
+      "tier": "cold",
+      "weighted_frequency": 1.03,
+      "draws_since_last_seen": 25,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 32,
+      "score": 0.9356,
+      "tier": "cold",
+      "weighted_frequency": 1.08,
+      "draws_since_last_seen": 20,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 15,
+      "score": 0.9337,
+      "tier": "cold",
+      "weighted_frequency": 0.8,
+      "draws_since_last_seen": 39,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 21,
+      "score": 0.8517,
+      "tier": "cold",
+      "weighted_frequency": 1.8,
+      "draws_since_last_seen": 1,
+      "parity": "odd",
+      "field": "low"
+    }
+  ],
+  "all_stars_ranked": [
+    {
+      "number": 5,
+      "score": 1.1561,
+      "tier": "hot",
+      "weighted_frequency": 7.36,
+      "draws_since_last_seen": 4
+    },
+    {
+      "number": 12,
+      "score": 1.1385,
+      "tier": "mild",
+      "weighted_frequency": 6.12,
+      "draws_since_last_seen": 2
+    },
+    {
+      "number": 8,
+      "score": 1.1345,
+      "tier": "mild",
+      "weighted_frequency": 5.87,
+      "draws_since_last_seen": 3
+    },
+    {
+      "number": 6,
+      "score": 1.1035,
+      "tier": "hot",
+      "weighted_frequency": 6.24,
+      "draws_since_last_seen": 6
+    },
+    {
+      "number": 9,
+      "score": 1.1016,
+      "tier": "hot",
+      "weighted_frequency": 7.19,
+      "draws_since_last_seen": 1
+    },
+    {
+      "number": 10,
+      "score": 1.0801,
+      "tier": "mild",
+      "weighted_frequency": 5.53,
+      "draws_since_last_seen": 1
+    },
+    {
+      "number": 7,
+      "score": 1.0228,
+      "tier": "cold",
+      "weighted_frequency": 4.68,
+      "draws_since_last_seen": 9
+    },
+    {
+      "number": 2,
+      "score": 1.0173,
+      "tier": "hot",
+      "weighted_frequency": 8.64,
+      "draws_since_last_seen": 0
+    },
+    {
+      "number": 1,
+      "score": 0.9286,
+      "tier": "mild",
+      "weighted_frequency": 4.17,
+      "draws_since_last_seen": 5
+    },
+    {
+      "number": 11,
+      "score": 0.8805,
+      "tier": "cold",
+      "weighted_frequency": 4.58,
+      "draws_since_last_seen": 0
+    },
+    {
+      "number": 3,
+      "score": 0.8337,
+      "tier": "cold",
+      "weighted_frequency": 3.17,
+      "draws_since_last_seen": 12
+    },
+    {
+      "number": 4,
+      "score": 0.795,
+      "tier": "cold",
+      "weighted_frequency": 3.1,
+      "draws_since_last_seen": 10
+    }
+  ],
+  "main_tiers": {
+    "2": "hot",
+    "8": "hot",
+    "17": "hot",
+    "37": "hot",
+    "5": "hot",
+    "6": "hot",
+    "10": "hot",
+    "14": "hot",
+    "23": "hot",
+    "26": "hot",
+    "28": "hot",
+    "34": "hot",
+    "41": "hot",
+    "42": "hot",
+    "44": "hot",
+    "45": "hot",
+    "47": "mild",
+    "3": "mild",
+    "4": "mild",
+    "12": "mild",
+    "13": "mild",
+    "16": "mild",
+    "18": "mild",
+    "19": "mild",
+    "25": "mild",
+    "29": "mild",
+    "31": "mild",
+    "33": "mild",
+    "35": "mild",
+    "39": "mild",
+    "40": "mild",
+    "46": "mild",
+    "48": "mild",
+    "1": "mild",
+    "7": "cold",
+    "9": "cold",
+    "22": "cold",
+    "27": "cold",
+    "36": "cold",
+    "38": "cold",
+    "43": "cold",
+    "49": "cold",
+    "11": "cold",
+    "20": "cold",
+    "21": "cold",
+    "24": "cold",
+    "30": "cold",
+    "32": "cold",
+    "50": "cold",
+    "15": "cold"
+  },
+  "star_tiers": {
+    "2": "hot",
+    "5": "hot",
+    "9": "hot",
+    "6": "hot",
+    "12": "mild",
+    "8": "mild",
+    "10": "mild",
+    "1": "mild",
+    "7": "cold",
+    "11": "cold",
+    "3": "cold",
+    "4": "cold"
+  }
+}

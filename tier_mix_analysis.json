@@ -1,0 +1,172 @@
+{
+  "min_prior_draws": 52,
+  "simple_summary": {
+    "label": "Simple frequency (hybrid cold/tier filter)",
+    "draws": 991,
+    "main_all_three_pct": 64.6,
+    "main_has_cold_pct": 85.7,
+    "star_all_three_pct": 0.0,
+    "fusion_style_main_pct": 66.2,
+    "top_main_patterns": [
+      [
+        "1H+2M+2C",
+        154
+      ],
+      [
+        "2H+2M+1C",
+        125
+      ],
+      [
+        "2H+1M+2C",
+        118
+      ],
+      [
+        "1H+3M+1C",
+        86
+      ],
+      [
+        "3H+1M+1C",
+        79
+      ],
+      [
+        "1H+1M+3C",
+        78
+      ],
+      [
+        "2M+3C",
+        47
+      ],
+      [
+        "2H+3M",
+        45
+      ]
+    ]
+  },
+  "weighted_summary": {
+    "label": "Weighted decay 0.97 (enhanced ranking)",
+    "draws": 991,
+    "main_all_three_pct": 65.6,
+    "main_has_cold_pct": 87.6,
+    "star_all_three_pct": 0.0,
+    "fusion_style_main_pct": 68.3,
+    "top_main_patterns": [
+      [
+        "1H+2M+2C",
+        140
+      ],
+      [
+        "2H+2M+1C",
+        135
+      ],
+      [
+        "2H+1M+2C",
+        123
+      ],
+      [
+        "1H+3M+1C",
+        113
+      ],
+      [
+        "1H+1M+3C",
+        75
+      ],
+      [
+        "3H+1M+1C",
+        64
+      ],
+      [
+        "2H+3M",
+        50
+      ],
+      [
+        "3H+2M",
+        45
+      ]
+    ]
+  },
+  "sample_recent": [
+    {
+      "date": "2026-05-08",
+      "method": "simple_frequency",
+      "main_mix": {
+        "mild": 2,
+        "hot": 3
+      },
+      "star_mix": {
+        "hot": 1,
+        "mild": 1
+      },
+      "main_all_three": false,
+      "main_has_cold": false,
+      "star_all_three": false,
+      "prior_draws": 1038
+    },
+    {
+      "date": "2026-05-12",
+      "method": "simple_frequency",
+      "main_mix": {
+        "cold": 3,
+        "mild": 1,
+        "hot": 1
+      },
+      "star_mix": {
+        "cold": 1,
+        "mild": 1
+      },
+      "main_all_three": true,
+      "main_has_cold": true,
+      "star_all_three": false,
+      "prior_draws": 1039
+    },
+    {
+      "date": "2026-05-15",
+      "method": "simple_frequency",
+      "main_mix": {
+        "mild": 2,
+        "hot": 1,
+        "cold": 2
+      },
+      "star_mix": {
+        "hot": 1,
+        "mild": 1
+      },
+      "main_all_three": true,
+      "main_has_cold": true,
+      "star_all_three": false,
+      "prior_draws": 1040
+    },
+    {
+      "date": "2026-05-19",
+      "method": "simple_frequency",
+      "main_mix": {
+        "mild": 2,
+        "hot": 2,
+        "cold": 1
+      },
+      "star_mix": {
+        "hot": 1,
+        "cold": 1
+      },
+      "main_all_three": true,
+      "main_has_cold": true,
+      "star_all_three": false,
+      "prior_draws": 1041
+    },
+    {
+      "date": "2026-05-22",
+      "method": "simple_frequency",
+      "main_mix": {
+        "cold": 3,
+        "mild": 2
+      },
+      "star_mix": {
+        "cold": 1,
+        "hot": 1
+      },
+      "main_all_three": false,
+      "main_has_cold": true,
+      "star_all_three": false,
+      "prior_draws": 1042
+    }
+  ]
+}

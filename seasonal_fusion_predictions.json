@@ -1,0 +1,2350 @@
+{
+  "mode": "seasonal_fusion",
+  "ticket_from": "long-due",
+  "random_from": 10,
+  "play_line": {
+    "main_numbers": [
+      4,
+      15,
+      28,
+      35,
+      43
+    ],
+    "lucky_stars": [
+      6,
+      10
+    ],
+    "sum": 125,
+    "tiers": {
+      "cold": 2,
+      "mild": 2,
+      "hot": 1
+    },
+    "ticket_from": "long-due",
+    "fusion_rank": 1100,
+    "fusion_score": 170.4,
+    "pool_size": 50000,
+    "pool_percentile": 2.2,
+    "long_due_mains": [
+      {
+        "number": 43,
+        "gap": 38
+      },
+      {
+        "number": 4,
+        "gap": 30
+      }
+    ],
+    "long_due_gap_threshold": 20
+  },
+  "play_date": "2026-09-29",
+  "seasonal_context": {
+    "month": 9,
+    "half": "H2",
+    "month_name": "Sep",
+    "profile": {
+      "month": 9,
+      "draws": 86,
+      "mean_sum": 124.663,
+      "mean_min": 8.209,
+      "mean_max": 42.43,
+      "pct_first_single": 0.651,
+      "pct_2low": 0.291,
+      "pct_3odd": 0.349
+    },
+    "survivors": [],
+    "star_hints": [
+      {
+        "month": 9,
+        "star": 10,
+        "observed": 5,
+        "expected": 26.6,
+        "p_value": 1.4426389721388152e-05,
+        "p_bonferroni": 0.002077400119879894
+      },
+      {
+        "month": 9,
+        "star": 6,
+        "observed": 8,
+        "expected": 30.7,
+        "p_value": 2.1213751888871048e-05,
+        "p_bonferroni": 0.003054780271997431
+      }
+    ],
+    "mutual_info": {
+      "spread": {
+        "feature": "spread",
+        "mi_month": 0.023,
+        "mi_half": 0.0147
+      },
+      "sum": {
+        "feature": "sum",
+        "mi_month": 0.0125,
+        "mi_half": 0.0149
+      },
+      "low_count": {
+        "feature": "low_count",
+        "mi_month": 0.0025,
+        "mi_half": 0.0
+      },
+      "min": {
+        "feature": "min",
+        "mi_month": 0.0,
+        "mi_half": 0.0
+      },
+      "max": {
+        "feature": "max",
+        "mi_month": 0.0,
+        "mi_half": 0.0076
+      },
+      "odd_count": {
+        "feature": "odd_count",
+        "mi_month": 0.0,
+        "mi_half": 0.0101
+      },
+      "consecutive_pairs": {
+        "feature": "consecutive_pairs",
+        "mi_month": 0.0,
+        "mi_half": 0.0
+      }
+    },
+    "hypotheses_tested": 7791,
+    "survivors_bh_total": 13
+  },
+  "seasonal_analysis_file": "/Users/tamilselvan.balu/code/lot/seasonal_analysis.json",
+  "position_filter": false,
+  "position_band": 70,
+  "position_limits": null,
+  "sorted_position_ranges": null,
+  "sum_band": {
+    "min": 96,
+    "max": 159
+  },
+  "disclaimer": "Seasonal fusion adds a soft month/half bias from seasonal_analysis.json. Draws remain random; this does not improve jackpot odds.",
+  "draws_analyzed": 1043,
+  "fusion_meta": {
+    "pool_generated": 50000,
+    "pool_attempts": 50184,
+    "pool_target": 50000,
+    "lookback": 0,
+    "decay": 0.97,
+    "seed": null,
+    "flat_stars": true,
+    "exclude_stars": [],
+    "seasonal_weight": 1.0,
+    "seasonal_month": 9,
+    "seasonal_half": "H2",
+    "long_due_gap": 20,
+    "long_due_min": 2
+  },
+  "unique_approach": [
+    "Random: fair mechanical draw (secrets)",
+    "Filter: sum, parity, high/low, cold (no position bands), \u22652 long-due mains (\u226520 draws absent)",
+    "Rank: enhanced history score + seasonal month/half bonus (reference only)",
+    "Stars: flat scoring by default (more variety)",
+    "Pick: dead random from 50,000 valid tickets with long-due mains"
+  ],
+  "fusion_lines": [
+    {
+      "rank": 1,
+      "score": 180.27737936507936,
+      "main_numbers": [
+        4,
+        13,
+        23,
+        41,
+        44
+      ],
+      "lucky_stars": [
+        3,
+        10
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.69,
+        "delta_pattern": 7.5,
+        "stars": 10.0,
+        "total": 180.28,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 2,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            10
+          ],
+          "seasonal_total": 23.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 4,
+            "gap": 30
+          },
+          {
+            "number": 41,
+            "gap": 28
+          }
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "score": 179.33084285714284,
+      "main_numbers": [
+        4,
+        20,
+        25,
+        35,
+        39
+      ],
+      "lucky_stars": [
+        6,
+        10
+      ],
+      "sum": 123,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.86,
+        "delta_pattern": 7.0,
+        "stars": 10.0,
+        "total": 179.33,
+        "rules": {
+          "sum": 123,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "hot": 2,
+          "mild": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 6.86,
+        "seasonal": {
+          "seasonal_sum": 8.61,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            10,
+            6
+          ],
+          "seasonal_total": 24.61
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 20,
+            "gap": 37
+          },
+          {
+            "number": 4,
+            "gap": 30
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "score": 178.31137936507935,
+      "main_numbers": [
+        4,
+        12,
+        23,
+        41,
+        45
+      ],
+      "lucky_stars": [
+        1,
+        2
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.23,
+        "delta_pattern": 7.0,
+        "stars": 10.0,
+        "total": 178.31,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 2,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_total": 21.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 4,
+            "gap": 30
+          },
+          {
+            "number": 41,
+            "gap": 28
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "score": 178.31137936507935,
+      "main_numbers": [
+        4,
+        12,
+        23,
+        41,
+        45
+      ],
+      "lucky_stars": [
+        4,
+        8
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.23,
+        "delta_pattern": 7.0,
+        "stars": 10.0,
+        "total": 178.31,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 2,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_total": 21.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 4,
+            "gap": 30
+          },
+          {
+            "number": 41,
+            "gap": 28
+          }
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "score": 178.21950634920634,
+      "main_numbers": [
+        4,
+        16,
+        23,
+        37,
+        41
+      ],
+      "lucky_stars": [
+        6,
+        10
+      ],
+      "sum": 121,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.92,
+        "delta_pattern": 7.0,
+        "stars": 10.0,
+        "total": 178.22,
+        "rules": {
+          "sum": 121,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "hot": 2,
+          "mild": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 6.35,
+        "seasonal": {
+          "seasonal_sum": 6.95,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            10,
+            6
+          ],
+          "seasonal_total": 22.95
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 4,
+            "gap": 30
+          },
+          {
+            "number": 41,
+            "gap": 28
+          }
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "score": 178.21381587301588,
+      "main_numbers": [
+        6,
+        16,
+        25,
+        39,
+        41
+      ],
+      "lucky_stars": [
+        6,
+        12
+      ],
+      "sum": 127,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.29,
+        "delta_pattern": 6.0,
+        "stars": 10.0,
+        "total": 178.21,
+        "rules": {
+          "sum": 127,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "hot": 3
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.87,
+        "seasonal": {
+          "seasonal_sum": 8.05,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            6
+          ],
+          "seasonal_total": 22.05
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 41,
+            "gap": 28
+          },
+          {
+            "number": 6,
+            "gap": 26
+          }
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "score": 177.87697936507936,
+      "main_numbers": [
+        6,
+        15,
+        23,
+        32,
+        49
+      ],
+      "lucky_stars": [
+        4,
+        6
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.29,
+        "delta_pattern": 6.5,
+        "stars": 10.0,
+        "total": 177.88,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 3
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            6
+          ],
+          "seasonal_total": 23.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 32,
+            "gap": 39
+          },
+          {
+            "number": 6,
+            "gap": 26
+          }
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "score": 177.86324285714284,
+      "main_numbers": [
+        2,
+        13,
+        21,
+        41,
+        46
+      ],
+      "lucky_stars": [
+        9,
+        10
+      ],
+      "sum": 123,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.9,
+        "delta_pattern": 7.5,
+        "stars": 10.0,
+        "total": 177.86,
+        "rules": {
+          "sum": 123,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "hot": 2,
+          "mild": 1,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 6.86,
+        "seasonal": {
+          "seasonal_sum": 8.61,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            10
+          ],
+          "seasonal_total": 22.61
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 41,
+            "gap": 28
+          },
+          {
+            "number": 21,
+            "gap": 20
+          }
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "score": 177.73467936507936,
+      "main_numbers": [
+        6,
+        13,
+        21,
+        39,
+        46
+      ],
+      "lucky_stars": [
+        4,
+        6
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.15,
+        "delta_pattern": 5.5,
+        "stars": 10.0,
+        "total": 177.73,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 1,
+          "hot": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            6
+          ],
+          "seasonal_total": 23.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 6,
+            "gap": 26
+          },
+          {
+            "number": 21,
+            "gap": 20
+          }
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "score": 177.61797936507935,
+      "main_numbers": [
+        6,
+        19,
+        25,
+        34,
+        41
+      ],
+      "lucky_stars": [
+        3,
+        6
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.53,
+        "delta_pattern": 4.0,
+        "stars": 10.0,
+        "total": 177.62,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 2,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            6
+          ],
+          "seasonal_total": 23.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 41,
+            "gap": 28
+          },
+          {
+            "number": 6,
+            "gap": 26
+          }
+        ]
+      }
+    }
+  ],
+  "top_suggested_lines": [
+    {
+      "rank": 1,
+      "score": 180.27737936507936,
+      "main_numbers": [
+        4,
+        13,
+        23,
+        41,
+        44
+      ],
+      "lucky_stars": [
+        3,
+        10
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.69,
+        "delta_pattern": 7.5,
+        "stars": 10.0,
+        "total": 180.28,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 2,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            10
+          ],
+          "seasonal_total": 23.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 4,
+            "gap": 30
+          },
+          {
+            "number": 41,
+            "gap": 28
+          }
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "score": 179.33084285714284,
+      "main_numbers": [
+        4,
+        20,
+        25,
+        35,
+        39
+      ],
+      "lucky_stars": [
+        6,
+        10
+      ],
+      "sum": 123,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.86,
+        "delta_pattern": 7.0,
+        "stars": 10.0,
+        "total": 179.33,
+        "rules": {
+          "sum": 123,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "hot": 2,
+          "mild": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 6.86,
+        "seasonal": {
+          "seasonal_sum": 8.61,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            10,
+            6
+          ],
+          "seasonal_total": 24.61
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 20,
+            "gap": 37
+          },
+          {
+            "number": 4,
+            "gap": 30
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "score": 178.31137936507935,
+      "main_numbers": [
+        4,
+        12,
+        23,
+        41,
+        45
+      ],
+      "lucky_stars": [
+        1,
+        2
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.23,
+        "delta_pattern": 7.0,
+        "stars": 10.0,
+        "total": 178.31,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 2,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_total": 21.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 4,
+            "gap": 30
+          },
+          {
+            "number": 41,
+            "gap": 28
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "score": 178.31137936507935,
+      "main_numbers": [
+        4,
+        12,
+        23,
+        41,
+        45
+      ],
+      "lucky_stars": [
+        4,
+        8
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.23,
+        "delta_pattern": 7.0,
+        "stars": 10.0,
+        "total": 178.31,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 2,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_total": 21.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 4,
+            "gap": 30
+          },
+          {
+            "number": 41,
+            "gap": 28
+          }
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "score": 178.21950634920634,
+      "main_numbers": [
+        4,
+        16,
+        23,
+        37,
+        41
+      ],
+      "lucky_stars": [
+        6,
+        10
+      ],
+      "sum": 121,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.92,
+        "delta_pattern": 7.0,
+        "stars": 10.0,
+        "total": 178.22,
+        "rules": {
+          "sum": 121,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "hot": 2,
+          "mild": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 6.35,
+        "seasonal": {
+          "seasonal_sum": 6.95,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            10,
+            6
+          ],
+          "seasonal_total": 22.95
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 4,
+            "gap": 30
+          },
+          {
+            "number": 41,
+            "gap": 28
+          }
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "score": 178.21381587301588,
+      "main_numbers": [
+        6,
+        16,
+        25,
+        39,
+        41
+      ],
+      "lucky_stars": [
+        6,
+        12
+      ],
+      "sum": 127,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.29,
+        "delta_pattern": 6.0,
+        "stars": 10.0,
+        "total": 178.21,
+        "rules": {
+          "sum": 127,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "hot": 3
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.87,
+        "seasonal": {
+          "seasonal_sum": 8.05,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            6
+          ],
+          "seasonal_total": 22.05
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 41,
+            "gap": 28
+          },
+          {
+            "number": 6,
+            "gap": 26
+          }
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "score": 177.87697936507936,
+      "main_numbers": [
+        6,
+        15,
+        23,
+        32,
+        49
+      ],
+      "lucky_stars": [
+        4,
+        6
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.29,
+        "delta_pattern": 6.5,
+        "stars": 10.0,
+        "total": 177.88,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 3
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            6
+          ],
+          "seasonal_total": 23.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 32,
+            "gap": 39
+          },
+          {
+            "number": 6,
+            "gap": 26
+          }
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "score": 177.86324285714284,
+      "main_numbers": [
+        2,
+        13,
+        21,
+        41,
+        46
+      ],
+      "lucky_stars": [
+        9,
+        10
+      ],
+      "sum": 123,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.9,
+        "delta_pattern": 7.5,
+        "stars": 10.0,
+        "total": 177.86,
+        "rules": {
+          "sum": 123,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "hot": 2,
+          "mild": 1,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 6.86,
+        "seasonal": {
+          "seasonal_sum": 8.61,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            10
+          ],
+          "seasonal_total": 22.61
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 41,
+            "gap": 28
+          },
+          {
+            "number": 21,
+            "gap": 20
+          }
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "score": 177.73467936507936,
+      "main_numbers": [
+        6,
+        13,
+        21,
+        39,
+        46
+      ],
+      "lucky_stars": [
+        4,
+        6
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.15,
+        "delta_pattern": 5.5,
+        "stars": 10.0,
+        "total": 177.73,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 1,
+          "hot": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            6
+          ],
+          "seasonal_total": 23.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 6,
+            "gap": 26
+          },
+          {
+            "number": 21,
+            "gap": 20
+          }
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "score": 177.61797936507935,
+      "main_numbers": [
+        6,
+        19,
+        25,
+        34,
+        41
+      ],
+      "lucky_stars": [
+        3,
+        6
+      ],
+      "sum": 125,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.53,
+        "delta_pattern": 4.0,
+        "stars": 10.0,
+        "total": 177.62,
+        "rules": {
+          "sum": 125,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "cold": 2,
+          "mild": 2,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 9.72,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            6
+          ],
+          "seasonal_total": 23.72
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 41,
+            "gap": 28
+          },
+          {
+            "number": 6,
+            "gap": 26
+          }
+        ]
+      }
+    }
+  ],
+  "consensus_line": {
+    "main_numbers": [
+      4,
+      6,
+      23,
+      39,
+      41
+    ],
+    "lucky_stars": [
+      6,
+      10
+    ],
+    "sum": 113,
+    "tiers": {
+      "cold": 3,
+      "mild": 1,
+      "hot": 1
+    },
+    "repeat_score": 34,
+    "lines_used": 10,
+    "main_appearances": {
+      "4": 5,
+      "6": 4,
+      "23": 5,
+      "39": 3,
+      "41": 7
+    },
+    "star_appearances": {
+      "6": 6,
+      "10": 4
+    },
+    "most_repeated_mains": [
+      {
+        "number": 41,
+        "count": 7,
+        "tier": "cold"
+      },
+      {
+        "number": 4,
+        "count": 5,
+        "tier": "cold"
+      },
+      {
+        "number": 23,
+        "count": 5,
+        "tier": "mild"
+      },
+      {
+        "number": 6,
+        "count": 4,
+        "tier": "cold"
+      },
+      {
+        "number": 13,
+        "count": 3,
+        "tier": "mild"
+      },
+      {
+        "number": 25,
+        "count": 3,
+        "tier": "hot"
+      },
+      {
+        "number": 39,
+        "count": 3,
+        "tier": "hot"
+      },
+      {
+        "number": 12,
+        "count": 2,
+        "tier": "mild"
+      },
+      {
+        "number": 45,
+        "count": 2,
+        "tier": "hot"
+      },
+      {
+        "number": 16,
+        "count": 2,
+        "tier": "hot"
+      }
+    ],
+    "most_repeated_stars": [
+      {
+        "number": 6,
+        "count": 6,
+        "tier": "mild"
+      },
+      {
+        "number": 10,
+        "count": 4,
+        "tier": "mild"
+      },
+      {
+        "number": 4,
+        "count": 3,
+        "tier": "mild"
+      },
+      {
+        "number": 3,
+        "count": 2,
+        "tier": "mild"
+      }
+    ]
+  },
+  "top_15_main_numbers_by_score": [
+    {
+      "number": 5,
+      "score": 1.4944,
+      "tier": "mild",
+      "weighted_frequency": 3.8,
+      "draws_since_last_seen": 12,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 48,
+      "score": 1.4752,
+      "tier": "mild",
+      "weighted_frequency": 3.99,
+      "draws_since_last_seen": 9,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 29,
+      "score": 1.4397,
+      "tier": "mild",
+      "weighted_frequency": 3.35,
+      "draws_since_last_seen": 12,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 34,
+      "score": 1.4378,
+      "tier": "mild",
+      "weighted_frequency": 3.17,
+      "draws_since_last_seen": 15,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 45,
+      "score": 1.4299,
+      "tier": "hot",
+      "weighted_frequency": 4.51,
+      "draws_since_last_seen": 8,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 6,
+      "score": 1.4094,
+      "tier": "cold",
+      "weighted_frequency": 2.66,
+      "draws_since_last_seen": 26,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 42,
+      "score": 1.3945,
+      "tier": "mild",
+      "weighted_frequency": 3.44,
+      "draws_since_last_seen": 8,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 26,
+      "score": 1.3862,
+      "tier": "mild",
+      "weighted_frequency": 3.02,
+      "draws_since_last_seen": 14,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 46,
+      "score": 1.3775,
+      "tier": "hot",
+      "weighted_frequency": 4.36,
+      "draws_since_last_seen": 6,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 35,
+      "score": 1.3758,
+      "tier": "mild",
+      "weighted_frequency": 3.63,
+      "draws_since_last_seen": 5,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 39,
+      "score": 1.3705,
+      "tier": "hot",
+      "weighted_frequency": 4.54,
+      "draws_since_last_seen": 4,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 7,
+      "score": 1.3653,
+      "tier": "mild",
+      "weighted_frequency": 3.66,
+      "draws_since_last_seen": 4,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 41,
+      "score": 1.3641,
+      "tier": "cold",
+      "weighted_frequency": 2.49,
+      "draws_since_last_seen": 28,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 37,
+      "score": 1.3541,
+      "tier": "hot",
+      "weighted_frequency": 4.05,
+      "draws_since_last_seen": 7,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 12,
+      "score": 1.3495,
+      "tier": "mild",
+      "weighted_frequency": 4.0,
+      "draws_since_last_seen": 0,
+      "parity": "even",
+      "field": "low"
+    }
+  ],
+  "top_lucky_stars_by_score": [
+    {
+      "number": 9,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.57,
+      "draws_since_last_seen": 8
+    },
+    {
+      "number": 4,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.96,
+      "draws_since_last_seen": 6
+    },
+    {
+      "number": 5,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.55,
+      "draws_since_last_seen": 7
+    },
+    {
+      "number": 6,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.91,
+      "draws_since_last_seen": 3
+    },
+    {
+      "number": 2,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 7.11,
+      "draws_since_last_seen": 2
+    },
+    {
+      "number": 10,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 7.29,
+      "draws_since_last_seen": 0
+    }
+  ],
+  "all_main_ranked": [
+    {
+      "number": 5,
+      "score": 1.4944,
+      "tier": "mild",
+      "weighted_frequency": 3.8,
+      "draws_since_last_seen": 12,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 48,
+      "score": 1.4752,
+      "tier": "mild",
+      "weighted_frequency": 3.99,
+      "draws_since_last_seen": 9,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 29,
+      "score": 1.4397,
+      "tier": "mild",
+      "weighted_frequency": 3.35,
+      "draws_since_last_seen": 12,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 34,
+      "score": 1.4378,
+      "tier": "mild",
+      "weighted_frequency": 3.17,
+      "draws_since_last_seen": 15,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 45,
+      "score": 1.4299,
+      "tier": "hot",
+      "weighted_frequency": 4.51,
+      "draws_since_last_seen": 8,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 6,
+      "score": 1.4094,
+      "tier": "cold",
+      "weighted_frequency": 2.66,
+      "draws_since_last_seen": 26,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 42,
+      "score": 1.3945,
+      "tier": "mild",
+      "weighted_frequency": 3.44,
+      "draws_since_last_seen": 8,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 26,
+      "score": 1.3862,
+      "tier": "mild",
+      "weighted_frequency": 3.02,
+      "draws_since_last_seen": 14,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 46,
+      "score": 1.3775,
+      "tier": "hot",
+      "weighted_frequency": 4.36,
+      "draws_since_last_seen": 6,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 35,
+      "score": 1.3758,
+      "tier": "mild",
+      "weighted_frequency": 3.63,
+      "draws_since_last_seen": 5,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 39,
+      "score": 1.3705,
+      "tier": "hot",
+      "weighted_frequency": 4.54,
+      "draws_since_last_seen": 4,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 7,
+      "score": 1.3653,
+      "tier": "mild",
+      "weighted_frequency": 3.66,
+      "draws_since_last_seen": 4,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 41,
+      "score": 1.3641,
+      "tier": "cold",
+      "weighted_frequency": 2.49,
+      "draws_since_last_seen": 28,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 37,
+      "score": 1.3541,
+      "tier": "hot",
+      "weighted_frequency": 4.05,
+      "draws_since_last_seen": 7,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 12,
+      "score": 1.3495,
+      "tier": "mild",
+      "weighted_frequency": 4.0,
+      "draws_since_last_seen": 0,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 50,
+      "score": 1.346,
+      "tier": "mild",
+      "weighted_frequency": 3.85,
+      "draws_since_last_seen": 1,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 3,
+      "score": 1.3374,
+      "tier": "hot",
+      "weighted_frequency": 3.45,
+      "draws_since_last_seen": 11,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 19,
+      "score": 1.3367,
+      "tier": "mild",
+      "weighted_frequency": 3.27,
+      "draws_since_last_seen": 6,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 2,
+      "score": 1.3313,
+      "tier": "hot",
+      "weighted_frequency": 3.86,
+      "draws_since_last_seen": 7,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 16,
+      "score": 1.3233,
+      "tier": "hot",
+      "weighted_frequency": 4.49,
+      "draws_since_last_seen": 1,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 23,
+      "score": 1.3208,
+      "tier": "mild",
+      "weighted_frequency": 3.15,
+      "draws_since_last_seen": 7,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 13,
+      "score": 1.3092,
+      "tier": "mild",
+      "weighted_frequency": 3.54,
+      "draws_since_last_seen": 1,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 38,
+      "score": 1.3036,
+      "tier": "mild",
+      "weighted_frequency": 3.61,
+      "draws_since_last_seen": 0,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 28,
+      "score": 1.3029,
+      "tier": "hot",
+      "weighted_frequency": 4.09,
+      "draws_since_last_seen": 3,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 25,
+      "score": 1.2963,
+      "tier": "hot",
+      "weighted_frequency": 4.15,
+      "draws_since_last_seen": 2,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 44,
+      "score": 1.2922,
+      "tier": "hot",
+      "weighted_frequency": 4.24,
+      "draws_since_last_seen": 1,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 30,
+      "score": 1.2885,
+      "tier": "hot",
+      "weighted_frequency": 4.09,
+      "draws_since_last_seen": 2,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 49,
+      "score": 1.2796,
+      "tier": "mild",
+      "weighted_frequency": 3.41,
+      "draws_since_last_seen": 0,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 4,
+      "score": 1.2778,
+      "tier": "cold",
+      "weighted_frequency": 2.15,
+      "draws_since_last_seen": 30,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 33,
+      "score": 1.2734,
+      "tier": "mild",
+      "weighted_frequency": 3.07,
+      "draws_since_last_seen": 5,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 31,
+      "score": 1.2664,
+      "tier": "cold",
+      "weighted_frequency": 2.6,
+      "draws_since_last_seen": 16,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 47,
+      "score": 1.2645,
+      "tier": "hot",
+      "weighted_frequency": 5.52,
+      "draws_since_last_seen": 7,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 8,
+      "score": 1.2576,
+      "tier": "hot",
+      "weighted_frequency": 5.1,
+      "draws_since_last_seen": 2,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 14,
+      "score": 1.2375,
+      "tier": "hot",
+      "weighted_frequency": 5.14,
+      "draws_since_last_seen": 1,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 17,
+      "score": 1.2251,
+      "tier": "hot",
+      "weighted_frequency": 5.32,
+      "draws_since_last_seen": 2,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 11,
+      "score": 1.2209,
+      "tier": "mild",
+      "weighted_frequency": 3.14,
+      "draws_since_last_seen": 0,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 15,
+      "score": 1.203,
+      "tier": "mild",
+      "weighted_frequency": 3.07,
+      "draws_since_last_seen": 0,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 24,
+      "score": 1.1962,
+      "tier": "cold",
+      "weighted_frequency": 2.32,
+      "draws_since_last_seen": 16,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 18,
+      "score": 1.158,
+      "tier": "cold",
+      "weighted_frequency": 2.89,
+      "draws_since_last_seen": 3,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 40,
+      "score": 1.1554,
+      "tier": "cold",
+      "weighted_frequency": 2.44,
+      "draws_since_last_seen": 11,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 10,
+      "score": 1.1425,
+      "tier": "hot",
+      "weighted_frequency": 5.96,
+      "draws_since_last_seen": 3,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 36,
+      "score": 1.1116,
+      "tier": "cold",
+      "weighted_frequency": 1.88,
+      "draws_since_last_seen": 18,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 27,
+      "score": 1.0323,
+      "tier": "cold",
+      "weighted_frequency": 2.23,
+      "draws_since_last_seen": 6,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 43,
+      "score": 1.0279,
+      "tier": "cold",
+      "weighted_frequency": 1.17,
+      "draws_since_last_seen": 38,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 9,
+      "score": 1.0186,
+      "tier": "cold",
+      "weighted_frequency": 1.9,
+      "draws_since_last_seen": 11,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 22,
+      "score": 0.9873,
+      "tier": "cold",
+      "weighted_frequency": 2.22,
+      "draws_since_last_seen": 3,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 1,
+      "score": 0.9792,
+      "tier": "cold",
+      "weighted_frequency": 2.13,
+      "draws_since_last_seen": 4,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 20,
+      "score": 0.9675,
+      "tier": "cold",
+      "weighted_frequency": 0.93,
+      "draws_since_last_seen": 37,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 21,
+      "score": 0.9166,
+      "tier": "cold",
+      "weighted_frequency": 1.01,
+      "draws_since_last_seen": 20,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 32,
+      "score": 0.8845,
+      "tier": "cold",
+      "weighted_frequency": 0.61,
+      "draws_since_last_seen": 39,
+      "parity": "even",
+      "field": "high"
+    }
+  ],
+  "all_stars_ranked": [
+    {
+      "number": 9,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.57,
+      "draws_since_last_seen": 8
+    },
+    {
+      "number": 4,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.96,
+      "draws_since_last_seen": 6
+    },
+    {
+      "number": 5,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.55,
+      "draws_since_last_seen": 7
+    },
+    {
+      "number": 6,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.91,
+      "draws_since_last_seen": 3
+    },
+    {
+      "number": 2,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 7.11,
+      "draws_since_last_seen": 2
+    },
+    {
+      "number": 10,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 7.29,
+      "draws_since_last_seen": 0
+    },
+    {
+      "number": 1,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.76,
+      "draws_since_last_seen": 4
+    },
+    {
+      "number": 12,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 8.46,
+      "draws_since_last_seen": 0
+    },
+    {
+      "number": 8,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 3.98,
+      "draws_since_last_seen": 12
+    },
+    {
+      "number": 11,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 4.05,
+      "draws_since_last_seen": 4
+    },
+    {
+      "number": 7,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 3.49,
+      "draws_since_last_seen": 5
+    },
+    {
+      "number": 3,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 3.53,
+      "draws_since_last_seen": 2
+    }
+  ],
+  "main_tiers": {
+    "8": "hot",
+    "10": "hot",
+    "14": "hot",
+    "17": "hot",
+    "47": "hot",
+    "16": "hot",
+    "25": "hot",
+    "28": "hot",
+    "30": "hot",
+    "37": "hot",
+    "39": "hot",
+    "44": "hot",
+    "45": "hot",
+    "46": "hot",
+    "2": "hot",
+    "3": "hot",
+    "5": "mild",
+    "7": "mild",
+    "11": "mild",
+    "12": "mild",
+    "13": "mild",
+    "15": "mild",
+    "19": "mild",
+    "23": "mild",
+    "26": "mild",
+    "29": "mild",
+    "33": "mild",
+    "34": "mild",
+    "35": "mild",
+    "38": "mild",
+    "42": "mild",
+    "48": "mild",
+    "49": "mild",
+    "50": "mild",
+    "1": "cold",
+    "4": "cold",
+    "6": "cold",
+    "18": "cold",
+    "22": "cold",
+    "24": "cold",
+    "27": "cold",
+    "31": "cold",
+    "40": "cold",
+    "41": "cold",
+    "9": "cold",
+    "21": "cold",
+    "36": "cold",
+    "43": "cold",
+    "20": "cold",
+    "32": "cold"
+  },
+  "star_tiers": {
+    "1": "mild",
+    "2": "mild",
+    "3": "mild",
+    "4": "mild",
+    "5": "mild",
+    "6": "mild",
+    "7": "mild",
+    "8": "mild",
+    "9": "mild",
+    "10": "mild",
+    "11": "mild",
+    "12": "mild"
+  }
+}

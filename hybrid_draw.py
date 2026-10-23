@@ -510,6 +510,29 @@ def print_compact_ticket(play_line: dict | None) -> None:
         gap_thr = play_line.get("long_due_gap_threshold", "?")
         parts = ", ".join(f"{x['number']:02d} ({x['gap']} draws)" for x in long_due)
         print(f"Long due (≥{gap_thr} draws): {parts}")
+    horo = play_line.get("horoscope") or (play_line.get("breakdown") or {}).get("horoscope")
+    if horo:
+        am = ", ".join(f"{n:02d}" for n in horo.get("aligned_mains") or [])
+        ast = ", ".join(f"{n:02d}" for n in horo.get("aligned_stars") or [])
+        tone = horo.get("judgment_tone")
+        live_tag = "live" if horo.get("live") else "static"
+        tone_bit = f"  [{live_tag}/{tone}]" if tone else f"  [{live_tag}]"
+        print(f"Horoscope:{tone_bit}  mains [{am}]  stars [{ast}]")
+        om = horo.get("overlap_mains") or []
+        os_ = horo.get("overlap_stars") or []
+        if om or os_:
+            print(
+                "Birth∩today: "
+                f"mains [{', '.join(f'{n:02d}' for n in om)}]  "
+                f"stars [{', '.join(f'{n:02d}' for n in os_)}]"
+            )
+        overdue = horo.get("overdue_aligned") or []
+        if overdue:
+            parts = ", ".join(f"{x['number']:02d} ({x['gap']} draws)" for x in overdue)
+            print(f"Aligned overdue: {parts}")
+        cold = horo.get("cold_aligned") or []
+        if cold:
+            print(f"Aligned cold: {', '.join(f'{n:02d}' for n in cold)}")
 
 
 def build_fusion_output(

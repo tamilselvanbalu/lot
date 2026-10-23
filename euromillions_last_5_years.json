@@ -2,12 +2,40 @@
   "game": "EuroMillions",
   "source": "https://api-euromillions.nunofcguerreiro.com",
   "period": {
-    "from": "2016-10-18",
-    "to": "2026-10-13",
+    "from": "2016-10-25",
+    "to": "2026-10-20",
     "description": "Last 10 years of EuroMillions draws"
   },
   "total_draws": 1043,
   "draws": [
+    {
+      "date": "2026-10-20",
+      "numbers": [
+        9,
+        15,
+        16,
+        37,
+        43
+      ],
+      "stars": [
+        7,
+        10
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "numbers": [
+        7,
+        15,
+        16,
+        22,
+        35
+      ],
+      "stars": [
+        4,
+        6
+      ]
+    },
     {
       "date": "2026-10-13",
       "numbers": [
@@ -14580,34 +14608,6 @@
       "stars": [
         1,
         5
-      ]
-    },
-    {
-      "date": "2016-10-21",
-      "numbers": [
-        9,
-        20,
-        23,
-        44,
-        48
-      ],
-      "stars": [
-        8,
-        10
-      ]
-    },
-    {
-      "date": "2016-10-18",
-      "numbers": [
-        2,
-        17,
-        21,
-        25,
-        27
-      ],
-      "stars": [
-        6,
-        9
       ]
     }
   ]

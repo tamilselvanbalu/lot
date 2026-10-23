@@ -1,74 +1,150 @@
 {
   "mode": "seasonal_fusion",
-  "ticket_from": "long-due",
+  "ticket_from": "top",
   "random_from": 10,
   "play_line": {
     "main_numbers": [
-      4,
-      15,
-      28,
-      35,
-      43
+      3,
+      21,
+      30,
+      34,
+      39
     ],
     "lucky_stars": [
-      6,
-      10
+      7,
+      12
     ],
-    "sum": 125,
+    "sum": 127,
     "tiers": {
-      "cold": 2,
       "mild": 2,
+      "cold": 2,
       "hot": 1
     },
-    "ticket_from": "long-due",
-    "fusion_rank": 1100,
-    "fusion_score": 170.4,
-    "pool_size": 50000,
-    "pool_percentile": 2.2,
-    "long_due_mains": [
+    "ticket_from": "top",
+    "fusion_rank": 1,
+    "fusion_score": 274.1770158730159,
+    "horoscope": {
+      "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+      "horoscope_total": 108.0,
+      "aligned_mains": [
+        3,
+        21,
+        30,
+        34,
+        39
+      ],
+      "aligned_stars": [
+        7,
+        12
+      ],
+      "live_mains": [
+        3,
+        21,
+        30,
+        34,
+        39
+      ],
+      "live_stars": [
+        7,
+        12
+      ],
+      "overlap_mains": [
+        3,
+        21,
+        30,
+        34,
+        39
+      ],
+      "overlap_stars": [
+        7,
+        12
+      ],
+      "core_mains": [
+        3,
+        21
+      ],
+      "overdue_aligned": [
+        {
+          "number": 3,
+          "gap": 18
+        },
+        {
+          "number": 34,
+          "gap": 22
+        }
+      ],
+      "cold_aligned": [
+        21,
+        34
+      ],
+      "live": true,
+      "judgment_tone": "cautious",
+      "weight": 1.0
+    }
+  },
+  "play_date": "2026-10-23",
+  "seasonal_context": {
+    "month": 10,
+    "half": "H2",
+    "month_name": "Oct",
+    "profile": {
+      "month": 10,
+      "draws": 88,
+      "mean_sum": 127.102,
+      "mean_min": 8.67,
+      "mean_max": 41.602,
+      "pct_first_single": 0.67,
+      "pct_2low": 0.295,
+      "pct_3odd": 0.284
+    },
+    "survivors": [
       {
-        "number": 43,
-        "gap": 38
+        "segment_type": "month_half",
+        "segment": "10_H2",
+        "feature": "star_pair",
+        "value": "01-06",
+        "n_segment": 45,
+        "observed": 5,
+        "expected": 0.65,
+        "rate_segment": 0.1111,
+        "rate_global": 0.0144,
+        "p_value": 3.137118558555063e-08,
+        "p_bonferroni": 0.00024441290689702493,
+        "significant_bh": true,
+        "significant_bonferroni": true
       },
       {
-        "number": 4,
-        "gap": 30
+        "segment_type": "month",
+        "segment": "10",
+        "feature": "star_pair",
+        "value": "01-06",
+        "n_segment": 88,
+        "observed": 6,
+        "expected": 1.27,
+        "rate_segment": 0.0682,
+        "rate_global": 0.0144,
+        "p_value": 1.2856534003323728e-05,
+        "p_bonferroni": 0.10016525641989517,
+        "significant_bh": true,
+        "significant_bonferroni": false
       }
     ],
-    "long_due_gap_threshold": 20
-  },
-  "play_date": "2026-09-29",
-  "seasonal_context": {
-    "month": 9,
-    "half": "H2",
-    "month_name": "Sep",
-    "profile": {
-      "month": 9,
-      "draws": 86,
-      "mean_sum": 124.663,
-      "mean_min": 8.209,
-      "mean_max": 42.43,
-      "pct_first_single": 0.651,
-      "pct_2low": 0.291,
-      "pct_3odd": 0.349
-    },
-    "survivors": [],
     "star_hints": [
       {
-        "month": 9,
-        "star": 10,
-        "observed": 5,
-        "expected": 26.6,
-        "p_value": 1.4426389721388152e-05,
-        "p_bonferroni": 0.002077400119879894
+        "month": 10,
+        "star": 7,
+        "observed": 7,
+        "expected": 27.8,
+        "p_value": 3.907261706169627e-05,
+        "p_bonferroni": 0.0056264568568842625
       },
       {
-        "month": 9,
-        "star": 6,
-        "observed": 8,
-        "expected": 30.7,
-        "p_value": 2.1213751888871048e-05,
-        "p_bonferroni": 0.003054780271997431
+        "month": 10,
+        "star": 2,
+        "observed": 12,
+        "expected": 34.3,
+        "p_value": 7.162965478580212e-05,
+        "p_bonferroni": 0.010314670289155505
       }
     ],
     "mutual_info": {
@@ -111,7 +187,143 @@
     "hypotheses_tested": 7791,
     "survivors_bh_total": 13
   },
-  "seasonal_analysis_file": "/Users/tamilselvan.balu/code/lot/seasonal_analysis.json",
+  "seasonal_analysis_file": "/Users/teesen/Code/lot/seasonal_analysis.json",
+  "horoscope": {
+    "profile": "sagittarius-moola",
+    "label": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+    "live": true,
+    "place": "ireland",
+    "mains": [
+      3,
+      7,
+      12,
+      16,
+      21,
+      25,
+      30,
+      34,
+      39,
+      43,
+      48
+    ],
+    "stars": [
+      3,
+      7,
+      12
+    ],
+    "live_mains": [
+      3,
+      6,
+      7,
+      8,
+      12,
+      15,
+      16,
+      17,
+      21,
+      24,
+      25,
+      26,
+      30,
+      33,
+      34,
+      35,
+      39,
+      42,
+      43,
+      44,
+      48
+    ],
+    "live_stars": [
+      3,
+      6,
+      7,
+      8,
+      12
+    ],
+    "overlap_mains": [
+      3,
+      7,
+      12,
+      16,
+      21,
+      25,
+      30,
+      34,
+      39,
+      43,
+      48
+    ],
+    "overlap_stars": [
+      3,
+      7,
+      12
+    ],
+    "transit": {
+      "when_local": "2026-10-23T19:00+01:00",
+      "place": "Ireland (Dublin)",
+      "timezone": "Europe/Dublin",
+      "ayanamsa_lahiri": 24.2284,
+      "moon_nakshatra": {
+        "index": 26,
+        "name": "Uttara Bhadrapada",
+        "lord": "Saturn",
+        "planet_number": 8,
+        "pada": 1,
+        "longitude": 334.7087,
+        "degrees_in_nakshatra": 1.3754
+      },
+      "moon_rashi": {
+        "name": "Pisces",
+        "index": 12,
+        "longitude": 334.7087,
+        "degrees_in_sign": 4.7087
+      },
+      "sun_rashi": {
+        "name": "Libra",
+        "index": 7,
+        "longitude": 186.1186,
+        "degrees_in_sign": 6.1186
+      },
+      "jupiter_rashi": {
+        "name": "Cancer",
+        "index": 4,
+        "longitude": 119.0163,
+        "degrees_in_sign": 29.0163
+      },
+      "ketu_rashi": {
+        "name": "Leo",
+        "index": 5,
+        "longitude": 122.2798,
+        "degrees_in_sign": 2.2798
+      },
+      "day_lord": "Venus",
+      "day_number": 6,
+      "bodies_sidereal": {
+        "Moon": 334.7087,
+        "Sun": 186.1186,
+        "Jupiter": 119.0163,
+        "Rahu": 302.2798,
+        "Ketu": 122.2798
+      }
+    },
+    "judgment": {
+      "tone": "cautious",
+      "score": -1,
+      "notes": [
+        "Moon lord Saturn is traditionally more demanding for Moola"
+      ],
+      "focus_planets": [
+        "Jupiter",
+        "Ketu",
+        "Saturn",
+        "Venus"
+      ]
+    },
+    "min_mains": 2,
+    "min_stars": 1,
+    "weight": 1.0
+  },
   "position_filter": false,
   "position_band": 70,
   "position_limits": null,
@@ -120,11 +332,11 @@
     "min": 96,
     "max": 159
   },
-  "disclaimer": "Seasonal fusion adds a soft month/half bias from seasonal_analysis.json. Draws remain random; this does not improve jackpot odds.",
+  "disclaimer": "Seasonal fusion adds a soft month/half bias from seasonal_analysis.json. Horoscope alignment is traditional preference only. Draws remain random; this does not improve jackpot odds.",
   "draws_analyzed": 1043,
   "fusion_meta": {
     "pool_generated": 50000,
-    "pool_attempts": 50184,
+    "pool_attempts": 369808,
     "pool_target": 50000,
     "lookback": 0,
     "decay": 0.97,
@@ -132,357 +344,35 @@
     "flat_stars": true,
     "exclude_stars": [],
     "seasonal_weight": 1.0,
-    "seasonal_month": 9,
+    "seasonal_month": 10,
     "seasonal_half": "H2",
-    "long_due_gap": 20,
-    "long_due_min": 2
+    "long_due_gap": null,
+    "long_due_min": null,
+    "horoscope": "sagittarius-moola",
+    "horoscope_live": true,
+    "horoscope_place": "ireland",
+    "horoscope_weight": 1.0
   },
   "unique_approach": [
     "Random: fair mechanical draw (secrets)",
-    "Filter: sum, parity, high/low, cold (no position bands), \u22652 long-due mains (\u226520 draws absent)",
-    "Rank: enhanced history score + seasonal month/half bonus (reference only)",
+    "Filter: sum, parity, high/low, cold (no position bands), horoscope sagittarius-moola (\u22652 mains, \u22651 stars)",
+    "Rank: enhanced history + seasonal + horoscope (aligned \u2229 overdue/cold get extra weight; reference only)",
     "Stars: flat scoring by default (more variety)",
-    "Pick: dead random from 50,000 valid tickets with long-due mains"
+    "Pick: top from top 10 ranked lines"
   ],
   "fusion_lines": [
     {
       "rank": 1,
-      "score": 180.27737936507936,
+      "score": 274.1770158730159,
       "main_numbers": [
-        4,
-        13,
-        23,
-        41,
-        44
-      ],
-      "lucky_stars": [
         3,
-        10
-      ],
-      "sum": 125,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 19.69,
-        "delta_pattern": 7.5,
-        "stars": 10.0,
-        "total": 180.28,
-        "rules": {
-          "sum": 125,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "mild": 2,
-          "hot": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 7.37,
-        "seasonal": {
-          "seasonal_sum": 9.72,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            10
-          ],
-          "seasonal_total": 23.72
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 4,
-            "gap": 30
-          },
-          {
-            "number": 41,
-            "gap": 28
-          }
-        ]
-      }
-    },
-    {
-      "rank": 2,
-      "score": 179.33084285714284,
-      "main_numbers": [
-        4,
-        20,
-        25,
-        35,
+        21,
+        30,
+        34,
         39
       ],
       "lucky_stars": [
-        6,
-        10
-      ],
-      "sum": 123,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 18.86,
-        "delta_pattern": 7.0,
-        "stars": 10.0,
-        "total": 179.33,
-        "rules": {
-          "sum": 123,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "hot": 2,
-          "mild": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 6.86,
-        "seasonal": {
-          "seasonal_sum": 8.61,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            10,
-            6
-          ],
-          "seasonal_total": 24.61
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 20,
-            "gap": 37
-          },
-          {
-            "number": 4,
-            "gap": 30
-          }
-        ]
-      }
-    },
-    {
-      "rank": 3,
-      "score": 178.31137936507935,
-      "main_numbers": [
-        4,
-        12,
-        23,
-        41,
-        45
-      ],
-      "lucky_stars": [
-        1,
-        2
-      ],
-      "sum": 125,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 20.23,
-        "delta_pattern": 7.0,
-        "stars": 10.0,
-        "total": 178.31,
-        "rules": {
-          "sum": 125,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "mild": 2,
-          "hot": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 7.37,
-        "seasonal": {
-          "seasonal_sum": 9.72,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_total": 21.72
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 4,
-            "gap": 30
-          },
-          {
-            "number": 41,
-            "gap": 28
-          }
-        ]
-      }
-    },
-    {
-      "rank": 4,
-      "score": 178.31137936507935,
-      "main_numbers": [
-        4,
-        12,
-        23,
-        41,
-        45
-      ],
-      "lucky_stars": [
-        4,
-        8
-      ],
-      "sum": 125,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 20.23,
-        "delta_pattern": 7.0,
-        "stars": 10.0,
-        "total": 178.31,
-        "rules": {
-          "sum": 125,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "mild": 2,
-          "hot": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 7.37,
-        "seasonal": {
-          "seasonal_sum": 9.72,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_total": 21.72
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 4,
-            "gap": 30
-          },
-          {
-            "number": 41,
-            "gap": 28
-          }
-        ]
-      }
-    },
-    {
-      "rank": 5,
-      "score": 178.21950634920634,
-      "main_numbers": [
-        4,
-        16,
-        23,
-        37,
-        41
-      ],
-      "lucky_stars": [
-        6,
-        10
-      ],
-      "sum": 121,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 19.92,
-        "delta_pattern": 7.0,
-        "stars": 10.0,
-        "total": 178.22,
-        "rules": {
-          "sum": 121,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "hot": 2,
-          "mild": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 6.35,
-        "seasonal": {
-          "seasonal_sum": 6.95,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            10,
-            6
-          ],
-          "seasonal_total": 22.95
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 4,
-            "gap": 30
-          },
-          {
-            "number": 41,
-            "gap": 28
-          }
-        ]
-      }
-    },
-    {
-      "rank": 6,
-      "score": 178.21381587301588,
-      "main_numbers": [
-        6,
-        16,
-        25,
-        39,
-        41
-      ],
-      "lucky_stars": [
-        6,
+        7,
         12
       ],
       "sum": 127,
@@ -491,142 +381,1205 @@
         "parity_rule": 25,
         "high_low_rule": 25,
         "tier_mix_rule": 20,
-        "number_strength": 20.29,
-        "delta_pattern": 6.0,
+        "number_strength": 18.89,
+        "delta_pattern": 1.5,
         "stars": 10.0,
-        "total": 178.21,
+        "total": 274.18,
         "rules": {
           "sum": 127,
           "sum_in_band": true,
           "odd": 3,
           "even": 2,
           "parity_ok": true,
-          "low": 3,
-          "high": 2,
+          "low": 2,
+          "high": 3,
           "high_low_ok": true
         },
         "tiers": {
+          "mild": 2,
           "cold": 2,
-          "hot": 3
+          "hot": 1
         },
         "pair_cohesion": 12.0,
         "sum_center": 7.87,
         "seasonal": {
-          "seasonal_sum": 8.05,
-          "seasonal_low": 5.0,
+          "seasonal_sum": 9.91,
           "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
           "seasonal_survivor_matches": 0,
           "seasonal_survivors": 0.0,
           "seasonal_star_hints": [
-            6
+            7
           ],
-          "seasonal_total": 22.05
+          "seasonal_total": 15.91
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 108.0,
+          "aligned_mains": [
+            3,
+            21,
+            30,
+            34,
+            39
+          ],
+          "aligned_stars": [
+            7,
+            12
+          ],
+          "live_mains": [
+            3,
+            21,
+            30,
+            34,
+            39
+          ],
+          "live_stars": [
+            7,
+            12
+          ],
+          "overlap_mains": [
+            3,
+            21,
+            30,
+            34,
+            39
+          ],
+          "overlap_stars": [
+            7,
+            12
+          ],
+          "core_mains": [
+            3,
+            21
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            21,
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
         },
         "origin": "fair_random_simulation",
         "long_due_mains": [
           {
-            "number": 41,
-            "gap": 28
+            "number": 34,
+            "gap": 22
           },
           {
-            "number": 6,
-            "gap": 26
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 30,
+            "gap": 9
+          },
+          {
+            "number": 21,
+            "gap": 2
+          },
+          {
+            "number": 39,
+            "gap": 2
           }
         ]
       }
     },
     {
-      "rank": 7,
-      "score": 177.87697936507936,
+      "rank": 2,
+      "score": 273.1935158730158,
       "main_numbers": [
         6,
-        15,
-        23,
-        32,
-        49
+        24,
+        25,
+        34,
+        39
       ],
       "lucky_stars": [
-        4,
-        6
+        3,
+        7
       ],
-      "sum": 125,
+      "sum": 128,
       "breakdown": {
         "sum_rule": 30,
         "parity_rule": 25,
         "high_low_rule": 25,
         "tier_mix_rule": 20,
-        "number_strength": 18.29,
-        "delta_pattern": 6.5,
+        "number_strength": 19.57,
+        "delta_pattern": 6.0,
         "stars": 10.0,
-        "total": 177.88,
+        "total": 273.19,
         "rules": {
-          "sum": 125,
+          "sum": 128,
           "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
+          "odd": 2,
+          "even": 3,
           "parity_ok": true,
           "low": 3,
           "high": 2,
           "high_low_ok": true
         },
         "tiers": {
+          "mild": 2,
           "cold": 2,
-          "mild": 3
+          "hot": 1
         },
         "pair_cohesion": 12.0,
-        "sum_center": 7.37,
+        "sum_center": 7.87,
         "seasonal": {
-          "seasonal_sum": 9.72,
+          "seasonal_sum": 9.25,
           "seasonal_low": 5.0,
           "seasonal_first_single": 4.0,
           "seasonal_parity": 3.0,
           "seasonal_survivor_matches": 0,
           "seasonal_survivors": 0.0,
           "seasonal_star_hints": [
-            6
+            7
           ],
-          "seasonal_total": 23.72
+          "seasonal_total": 23.25
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 94.5,
+          "aligned_mains": [
+            6,
+            24,
+            25,
+            34,
+            39
+          ],
+          "aligned_stars": [
+            3,
+            7
+          ],
+          "live_mains": [
+            6,
+            24,
+            25,
+            34,
+            39
+          ],
+          "live_stars": [
+            3,
+            7
+          ],
+          "overlap_mains": [
+            25,
+            34,
+            39
+          ],
+          "overlap_stars": [
+            3,
+            7
+          ],
+          "core_mains": [
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 6,
+              "gap": 33
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            24,
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
         },
         "origin": "fair_random_simulation",
         "long_due_mains": [
           {
-            "number": 32,
-            "gap": 39
+            "number": 6,
+            "gap": 33
           },
           {
-            "number": 6,
-            "gap": 26
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 25,
+            "gap": 9
+          },
+          {
+            "number": 24,
+            "gap": 3
+          },
+          {
+            "number": 39,
+            "gap": 2
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "score": 270.9835793650794,
+      "main_numbers": [
+        3,
+        16,
+        21,
+        42,
+        48
+      ],
+      "lucky_stars": [
+        8,
+        12
+      ],
+      "sum": 130,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.03,
+        "delta_pattern": 5.0,
+        "stars": 10.0,
+        "total": 270.98,
+        "rules": {
+          "sum": 130,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 1,
+          "hot": 2,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 7.59,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_total": 19.59
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 99.0,
+          "aligned_mains": [
+            3,
+            16,
+            21,
+            42,
+            48
+          ],
+          "aligned_stars": [
+            8,
+            12
+          ],
+          "live_mains": [
+            3,
+            16,
+            21,
+            42,
+            48
+          ],
+          "live_stars": [
+            8,
+            12
+          ],
+          "overlap_mains": [
+            3,
+            16,
+            21,
+            48
+          ],
+          "overlap_stars": [
+            12
+          ],
+          "core_mains": [
+            3,
+            16,
+            21
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 42,
+              "gap": 15
+            }
+          ],
+          "cold_aligned": [
+            21,
+            42
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 42,
+            "gap": 15
+          },
+          {
+            "number": 48,
+            "gap": 4
+          },
+          {
+            "number": 21,
+            "gap": 2
+          },
+          {
+            "number": 16,
+            "gap": 0
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "score": 269.6350111111111,
+      "main_numbers": [
+        3,
+        25,
+        30,
+        34,
+        39
+      ],
+      "lucky_stars": [
+        3,
+        7
+      ],
+      "sum": 131,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.52,
+        "delta_pattern": 1.5,
+        "stars": 10.0,
+        "total": 269.64,
+        "rules": {
+          "sum": 131,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 3,
+          "cold": 1,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.11,
+        "seasonal": {
+          "seasonal_sum": 6.75,
+          "seasonal_first_single": 4.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            7
+          ],
+          "seasonal_total": 12.75
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 105.75,
+          "aligned_mains": [
+            3,
+            25,
+            30,
+            34,
+            39
+          ],
+          "aligned_stars": [
+            3,
+            7
+          ],
+          "live_mains": [
+            3,
+            25,
+            30,
+            34,
+            39
+          ],
+          "live_stars": [
+            3,
+            7
+          ],
+          "overlap_mains": [
+            3,
+            25,
+            30,
+            34,
+            39
+          ],
+          "overlap_stars": [
+            3,
+            7
+          ],
+          "core_mains": [
+            3,
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 25,
+            "gap": 9
+          },
+          {
+            "number": 30,
+            "gap": 9
+          },
+          {
+            "number": 39,
+            "gap": 2
+          }
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "score": 268.6102015873016,
+      "main_numbers": [
+        3,
+        7,
+        26,
+        34,
+        48
+      ],
+      "lucky_stars": [
+        7,
+        12
+      ],
+      "sum": 118,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.51,
+        "delta_pattern": 3.0,
+        "stars": 10.0,
+        "total": 268.61,
+        "rules": {
+          "sum": 118,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 1,
+          "hot": 2,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 5.59,
+        "seasonal": {
+          "seasonal_sum": 2.41,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            7
+          ],
+          "seasonal_total": 11.41
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 107.1,
+          "aligned_mains": [
+            3,
+            7,
+            26,
+            34,
+            48
+          ],
+          "aligned_stars": [
+            7,
+            12
+          ],
+          "live_mains": [
+            3,
+            7,
+            26,
+            34,
+            48
+          ],
+          "live_stars": [
+            7,
+            12
+          ],
+          "overlap_mains": [
+            3,
+            7,
+            34,
+            48
+          ],
+          "overlap_stars": [
+            7,
+            12
+          ],
+          "core_mains": [
+            3,
+            7
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 26,
+              "gap": 21
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            26,
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 26,
+            "gap": 21
+          },
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 48,
+            "gap": 4
+          },
+          {
+            "number": 7,
+            "gap": 1
+          }
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "score": 267.6349476190476,
+      "main_numbers": [
+        3,
+        16,
+        25,
+        34,
+        48
+      ],
+      "lucky_stars": [
+        5,
+        7
+      ],
+      "sum": 126,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.79,
+        "delta_pattern": 2.0,
+        "stars": 10.0,
+        "total": 267.63,
+        "rules": {
+          "sum": 126,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 2,
+          "hot": 2,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.62,
+        "seasonal": {
+          "seasonal_sum": 9.08,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            7
+          ],
+          "seasonal_total": 23.08
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 93.15,
+          "aligned_mains": [
+            3,
+            16,
+            25,
+            34,
+            48
+          ],
+          "aligned_stars": [
+            7
+          ],
+          "live_mains": [
+            3,
+            16,
+            25,
+            34,
+            48
+          ],
+          "live_stars": [
+            7
+          ],
+          "overlap_mains": [
+            3,
+            16,
+            25,
+            34,
+            48
+          ],
+          "overlap_stars": [
+            7
+          ],
+          "core_mains": [
+            3,
+            16,
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 25,
+            "gap": 9
+          },
+          {
+            "number": 48,
+            "gap": 4
+          },
+          {
+            "number": 16,
+            "gap": 0
+          }
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "score": 266.7311111111111,
+      "main_numbers": [
+        3,
+        7,
+        34,
+        39,
+        48
+      ],
+      "lucky_stars": [
+        3,
+        12
+      ],
+      "sum": 131,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.62,
+        "delta_pattern": 1.5,
+        "stars": 10.0,
+        "total": 266.73,
+        "rules": {
+          "sum": 131,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 1,
+          "hot": 3,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.11,
+        "seasonal": {
+          "seasonal_sum": 6.75,
+          "seasonal_first_single": 4.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_total": 10.75
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 105.75,
+          "aligned_mains": [
+            3,
+            7,
+            34,
+            39,
+            48
+          ],
+          "aligned_stars": [
+            3,
+            12
+          ],
+          "live_mains": [
+            3,
+            7,
+            34,
+            39,
+            48
+          ],
+          "live_stars": [
+            3,
+            12
+          ],
+          "overlap_mains": [
+            3,
+            7,
+            34,
+            39,
+            48
+          ],
+          "overlap_stars": [
+            3,
+            12
+          ],
+          "core_mains": [
+            3,
+            7
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 48,
+            "gap": 4
+          },
+          {
+            "number": 39,
+            "gap": 2
+          },
+          {
+            "number": 7,
+            "gap": 1
           }
         ]
       }
     },
     {
       "rank": 8,
-      "score": 177.86324285714284,
+      "score": 266.04764761904767,
       "main_numbers": [
-        2,
-        13,
-        21,
-        41,
-        46
+        7,
+        12,
+        25,
+        34,
+        48
       ],
       "lucky_stars": [
-        9,
+        7,
         10
       ],
-      "sum": 123,
+      "sum": 126,
       "breakdown": {
         "sum_rule": 30,
         "parity_rule": 25,
         "high_low_rule": 25,
         "tier_mix_rule": 20,
-        "number_strength": 18.9,
-        "delta_pattern": 7.5,
+        "number_strength": 19.7,
+        "delta_pattern": 5.0,
         "stars": 10.0,
-        "total": 177.86,
+        "total": 266.05,
         "rules": {
-          "sum": 123,
+          "sum": 126,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "hot": 3,
+          "mild": 1,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.62,
+        "seasonal": {
+          "seasonal_sum": 9.08,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            7
+          ],
+          "seasonal_total": 23.08
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 88.65,
+          "aligned_mains": [
+            7,
+            12,
+            25,
+            34,
+            48
+          ],
+          "aligned_stars": [
+            7
+          ],
+          "live_mains": [
+            7,
+            12,
+            25,
+            34,
+            48
+          ],
+          "live_stars": [
+            7
+          ],
+          "overlap_mains": [
+            7,
+            12,
+            25,
+            34,
+            48
+          ],
+          "overlap_stars": [
+            7
+          ],
+          "core_mains": [
+            7,
+            12,
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 25,
+            "gap": 9
+          },
+          {
+            "number": 12,
+            "gap": 6
+          },
+          {
+            "number": 48,
+            "gap": 4
+          },
+          {
+            "number": 7,
+            "gap": 1
+          }
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "score": 265.62220158730156,
+      "main_numbers": [
+        3,
+        8,
+        25,
+        34,
+        48
+      ],
+      "lucky_stars": [
+        3,
+        12
+      ],
+      "sum": 118,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.27,
+        "delta_pattern": 3.0,
+        "stars": 10.0,
+        "total": 265.62,
+        "rules": {
+          "sum": 118,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 2,
+          "hot": 2,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 5.59,
+        "seasonal": {
+          "seasonal_sum": 2.41,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_total": 14.41
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 100.35,
+          "aligned_mains": [
+            3,
+            8,
+            25,
+            34,
+            48
+          ],
+          "aligned_stars": [
+            3,
+            12
+          ],
+          "live_mains": [
+            3,
+            8,
+            25,
+            34,
+            48
+          ],
+          "live_stars": [
+            3,
+            12
+          ],
+          "overlap_mains": [
+            3,
+            25,
+            34,
+            48
+          ],
+          "overlap_stars": [
+            3,
+            12
+          ],
+          "core_mains": [
+            3,
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 25,
+            "gap": 9
+          },
+          {
+            "number": 8,
+            "gap": 5
+          },
+          {
+            "number": 48,
+            "gap": 4
+          }
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "score": 265.0267063492064,
+      "main_numbers": [
+        7,
+        12,
+        25,
+        34,
+        43
+      ],
+      "lucky_stars": [
+        3,
+        8
+      ],
+      "sum": 121,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.37,
+        "delta_pattern": 4.5,
+        "stars": 10.0,
+        "total": 265.03,
+        "rules": {
+          "sum": 121,
           "sum_in_band": true,
           "odd": 3,
           "even": 2,
@@ -641,160 +1594,90 @@
           "cold": 2
         },
         "pair_cohesion": 12.0,
-        "sum_center": 6.86,
+        "sum_center": 6.35,
         "seasonal": {
-          "seasonal_sum": 8.61,
+          "seasonal_sum": 4.91,
           "seasonal_low": 5.0,
           "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
           "seasonal_survivor_matches": 0,
           "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            10
+          "seasonal_total": 13.91
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 99.9,
+          "aligned_mains": [
+            7,
+            12,
+            25,
+            34,
+            43
           ],
-          "seasonal_total": 22.61
+          "aligned_stars": [
+            3,
+            8
+          ],
+          "live_mains": [
+            7,
+            12,
+            25,
+            34,
+            43
+          ],
+          "live_stars": [
+            3,
+            8
+          ],
+          "overlap_mains": [
+            7,
+            12,
+            25,
+            34,
+            43
+          ],
+          "overlap_stars": [
+            3
+          ],
+          "core_mains": [
+            7,
+            12,
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34,
+            43
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
         },
         "origin": "fair_random_simulation",
         "long_due_mains": [
           {
-            "number": 41,
-            "gap": 28
+            "number": 34,
+            "gap": 22
           },
           {
-            "number": 21,
-            "gap": 20
-          }
-        ]
-      }
-    },
-    {
-      "rank": 9,
-      "score": 177.73467936507936,
-      "main_numbers": [
-        6,
-        13,
-        21,
-        39,
-        46
-      ],
-      "lucky_stars": [
-        4,
-        6
-      ],
-      "sum": 125,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 19.15,
-        "delta_pattern": 5.5,
-        "stars": 10.0,
-        "total": 177.73,
-        "rules": {
-          "sum": 125,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "mild": 1,
-          "hot": 2
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 7.37,
-        "seasonal": {
-          "seasonal_sum": 9.72,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            6
-          ],
-          "seasonal_total": 23.72
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 6,
-            "gap": 26
+            "number": 25,
+            "gap": 9
           },
           {
-            "number": 21,
-            "gap": 20
-          }
-        ]
-      }
-    },
-    {
-      "rank": 10,
-      "score": 177.61797936507935,
-      "main_numbers": [
-        6,
-        19,
-        25,
-        34,
-        41
-      ],
-      "lucky_stars": [
-        3,
-        6
-      ],
-      "sum": 125,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 20.53,
-        "delta_pattern": 4.0,
-        "stars": 10.0,
-        "total": 177.62,
-        "rules": {
-          "sum": 125,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "mild": 2,
-          "hot": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 7.37,
-        "seasonal": {
-          "seasonal_sum": 9.72,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            6
-          ],
-          "seasonal_total": 23.72
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 41,
-            "gap": 28
+            "number": 12,
+            "gap": 6
           },
           {
-            "number": 6,
-            "gap": 26
+            "number": 7,
+            "gap": 1
+          },
+          {
+            "number": 43,
+            "gap": 0
           }
         ]
       }
@@ -803,342 +1686,16 @@
   "top_suggested_lines": [
     {
       "rank": 1,
-      "score": 180.27737936507936,
+      "score": 274.1770158730159,
       "main_numbers": [
-        4,
-        13,
-        23,
-        41,
-        44
-      ],
-      "lucky_stars": [
         3,
-        10
-      ],
-      "sum": 125,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 19.69,
-        "delta_pattern": 7.5,
-        "stars": 10.0,
-        "total": 180.28,
-        "rules": {
-          "sum": 125,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "mild": 2,
-          "hot": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 7.37,
-        "seasonal": {
-          "seasonal_sum": 9.72,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            10
-          ],
-          "seasonal_total": 23.72
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 4,
-            "gap": 30
-          },
-          {
-            "number": 41,
-            "gap": 28
-          }
-        ]
-      }
-    },
-    {
-      "rank": 2,
-      "score": 179.33084285714284,
-      "main_numbers": [
-        4,
-        20,
-        25,
-        35,
+        21,
+        30,
+        34,
         39
       ],
       "lucky_stars": [
-        6,
-        10
-      ],
-      "sum": 123,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 18.86,
-        "delta_pattern": 7.0,
-        "stars": 10.0,
-        "total": 179.33,
-        "rules": {
-          "sum": 123,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "hot": 2,
-          "mild": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 6.86,
-        "seasonal": {
-          "seasonal_sum": 8.61,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            10,
-            6
-          ],
-          "seasonal_total": 24.61
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 20,
-            "gap": 37
-          },
-          {
-            "number": 4,
-            "gap": 30
-          }
-        ]
-      }
-    },
-    {
-      "rank": 3,
-      "score": 178.31137936507935,
-      "main_numbers": [
-        4,
-        12,
-        23,
-        41,
-        45
-      ],
-      "lucky_stars": [
-        1,
-        2
-      ],
-      "sum": 125,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 20.23,
-        "delta_pattern": 7.0,
-        "stars": 10.0,
-        "total": 178.31,
-        "rules": {
-          "sum": 125,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "mild": 2,
-          "hot": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 7.37,
-        "seasonal": {
-          "seasonal_sum": 9.72,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_total": 21.72
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 4,
-            "gap": 30
-          },
-          {
-            "number": 41,
-            "gap": 28
-          }
-        ]
-      }
-    },
-    {
-      "rank": 4,
-      "score": 178.31137936507935,
-      "main_numbers": [
-        4,
-        12,
-        23,
-        41,
-        45
-      ],
-      "lucky_stars": [
-        4,
-        8
-      ],
-      "sum": 125,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 20.23,
-        "delta_pattern": 7.0,
-        "stars": 10.0,
-        "total": 178.31,
-        "rules": {
-          "sum": 125,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "mild": 2,
-          "hot": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 7.37,
-        "seasonal": {
-          "seasonal_sum": 9.72,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_total": 21.72
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 4,
-            "gap": 30
-          },
-          {
-            "number": 41,
-            "gap": 28
-          }
-        ]
-      }
-    },
-    {
-      "rank": 5,
-      "score": 178.21950634920634,
-      "main_numbers": [
-        4,
-        16,
-        23,
-        37,
-        41
-      ],
-      "lucky_stars": [
-        6,
-        10
-      ],
-      "sum": 121,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 19.92,
-        "delta_pattern": 7.0,
-        "stars": 10.0,
-        "total": 178.22,
-        "rules": {
-          "sum": 121,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "hot": 2,
-          "mild": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 6.35,
-        "seasonal": {
-          "seasonal_sum": 6.95,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            10,
-            6
-          ],
-          "seasonal_total": 22.95
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 4,
-            "gap": 30
-          },
-          {
-            "number": 41,
-            "gap": 28
-          }
-        ]
-      }
-    },
-    {
-      "rank": 6,
-      "score": 178.21381587301588,
-      "main_numbers": [
-        6,
-        16,
-        25,
-        39,
-        41
-      ],
-      "lucky_stars": [
-        6,
+        7,
         12
       ],
       "sum": 127,
@@ -1147,142 +1704,1205 @@
         "parity_rule": 25,
         "high_low_rule": 25,
         "tier_mix_rule": 20,
-        "number_strength": 20.29,
-        "delta_pattern": 6.0,
+        "number_strength": 18.89,
+        "delta_pattern": 1.5,
         "stars": 10.0,
-        "total": 178.21,
+        "total": 274.18,
         "rules": {
           "sum": 127,
           "sum_in_band": true,
           "odd": 3,
           "even": 2,
           "parity_ok": true,
-          "low": 3,
-          "high": 2,
+          "low": 2,
+          "high": 3,
           "high_low_ok": true
         },
         "tiers": {
+          "mild": 2,
           "cold": 2,
-          "hot": 3
+          "hot": 1
         },
         "pair_cohesion": 12.0,
         "sum_center": 7.87,
         "seasonal": {
-          "seasonal_sum": 8.05,
-          "seasonal_low": 5.0,
+          "seasonal_sum": 9.91,
           "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
           "seasonal_survivor_matches": 0,
           "seasonal_survivors": 0.0,
           "seasonal_star_hints": [
-            6
+            7
           ],
-          "seasonal_total": 22.05
+          "seasonal_total": 15.91
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 108.0,
+          "aligned_mains": [
+            3,
+            21,
+            30,
+            34,
+            39
+          ],
+          "aligned_stars": [
+            7,
+            12
+          ],
+          "live_mains": [
+            3,
+            21,
+            30,
+            34,
+            39
+          ],
+          "live_stars": [
+            7,
+            12
+          ],
+          "overlap_mains": [
+            3,
+            21,
+            30,
+            34,
+            39
+          ],
+          "overlap_stars": [
+            7,
+            12
+          ],
+          "core_mains": [
+            3,
+            21
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            21,
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
         },
         "origin": "fair_random_simulation",
         "long_due_mains": [
           {
-            "number": 41,
-            "gap": 28
+            "number": 34,
+            "gap": 22
           },
           {
-            "number": 6,
-            "gap": 26
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 30,
+            "gap": 9
+          },
+          {
+            "number": 21,
+            "gap": 2
+          },
+          {
+            "number": 39,
+            "gap": 2
           }
         ]
       }
     },
     {
-      "rank": 7,
-      "score": 177.87697936507936,
+      "rank": 2,
+      "score": 273.1935158730158,
       "main_numbers": [
         6,
-        15,
-        23,
-        32,
-        49
+        24,
+        25,
+        34,
+        39
       ],
       "lucky_stars": [
-        4,
-        6
+        3,
+        7
       ],
-      "sum": 125,
+      "sum": 128,
       "breakdown": {
         "sum_rule": 30,
         "parity_rule": 25,
         "high_low_rule": 25,
         "tier_mix_rule": 20,
-        "number_strength": 18.29,
-        "delta_pattern": 6.5,
+        "number_strength": 19.57,
+        "delta_pattern": 6.0,
         "stars": 10.0,
-        "total": 177.88,
+        "total": 273.19,
         "rules": {
-          "sum": 125,
+          "sum": 128,
           "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
+          "odd": 2,
+          "even": 3,
           "parity_ok": true,
           "low": 3,
           "high": 2,
           "high_low_ok": true
         },
         "tiers": {
+          "mild": 2,
           "cold": 2,
-          "mild": 3
+          "hot": 1
         },
         "pair_cohesion": 12.0,
-        "sum_center": 7.37,
+        "sum_center": 7.87,
         "seasonal": {
-          "seasonal_sum": 9.72,
+          "seasonal_sum": 9.25,
           "seasonal_low": 5.0,
           "seasonal_first_single": 4.0,
           "seasonal_parity": 3.0,
           "seasonal_survivor_matches": 0,
           "seasonal_survivors": 0.0,
           "seasonal_star_hints": [
-            6
+            7
           ],
-          "seasonal_total": 23.72
+          "seasonal_total": 23.25
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 94.5,
+          "aligned_mains": [
+            6,
+            24,
+            25,
+            34,
+            39
+          ],
+          "aligned_stars": [
+            3,
+            7
+          ],
+          "live_mains": [
+            6,
+            24,
+            25,
+            34,
+            39
+          ],
+          "live_stars": [
+            3,
+            7
+          ],
+          "overlap_mains": [
+            25,
+            34,
+            39
+          ],
+          "overlap_stars": [
+            3,
+            7
+          ],
+          "core_mains": [
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 6,
+              "gap": 33
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            24,
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
         },
         "origin": "fair_random_simulation",
         "long_due_mains": [
           {
-            "number": 32,
-            "gap": 39
+            "number": 6,
+            "gap": 33
           },
           {
-            "number": 6,
-            "gap": 26
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 25,
+            "gap": 9
+          },
+          {
+            "number": 24,
+            "gap": 3
+          },
+          {
+            "number": 39,
+            "gap": 2
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "score": 270.9835793650794,
+      "main_numbers": [
+        3,
+        16,
+        21,
+        42,
+        48
+      ],
+      "lucky_stars": [
+        8,
+        12
+      ],
+      "sum": 130,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.03,
+        "delta_pattern": 5.0,
+        "stars": 10.0,
+        "total": 270.98,
+        "rules": {
+          "sum": 130,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 1,
+          "hot": 2,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.37,
+        "seasonal": {
+          "seasonal_sum": 7.59,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_total": 19.59
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 99.0,
+          "aligned_mains": [
+            3,
+            16,
+            21,
+            42,
+            48
+          ],
+          "aligned_stars": [
+            8,
+            12
+          ],
+          "live_mains": [
+            3,
+            16,
+            21,
+            42,
+            48
+          ],
+          "live_stars": [
+            8,
+            12
+          ],
+          "overlap_mains": [
+            3,
+            16,
+            21,
+            48
+          ],
+          "overlap_stars": [
+            12
+          ],
+          "core_mains": [
+            3,
+            16,
+            21
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 42,
+              "gap": 15
+            }
+          ],
+          "cold_aligned": [
+            21,
+            42
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 42,
+            "gap": 15
+          },
+          {
+            "number": 48,
+            "gap": 4
+          },
+          {
+            "number": 21,
+            "gap": 2
+          },
+          {
+            "number": 16,
+            "gap": 0
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "score": 269.6350111111111,
+      "main_numbers": [
+        3,
+        25,
+        30,
+        34,
+        39
+      ],
+      "lucky_stars": [
+        3,
+        7
+      ],
+      "sum": 131,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.52,
+        "delta_pattern": 1.5,
+        "stars": 10.0,
+        "total": 269.64,
+        "rules": {
+          "sum": 131,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 3,
+          "cold": 1,
+          "hot": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.11,
+        "seasonal": {
+          "seasonal_sum": 6.75,
+          "seasonal_first_single": 4.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            7
+          ],
+          "seasonal_total": 12.75
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 105.75,
+          "aligned_mains": [
+            3,
+            25,
+            30,
+            34,
+            39
+          ],
+          "aligned_stars": [
+            3,
+            7
+          ],
+          "live_mains": [
+            3,
+            25,
+            30,
+            34,
+            39
+          ],
+          "live_stars": [
+            3,
+            7
+          ],
+          "overlap_mains": [
+            3,
+            25,
+            30,
+            34,
+            39
+          ],
+          "overlap_stars": [
+            3,
+            7
+          ],
+          "core_mains": [
+            3,
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 25,
+            "gap": 9
+          },
+          {
+            "number": 30,
+            "gap": 9
+          },
+          {
+            "number": 39,
+            "gap": 2
+          }
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "score": 268.6102015873016,
+      "main_numbers": [
+        3,
+        7,
+        26,
+        34,
+        48
+      ],
+      "lucky_stars": [
+        7,
+        12
+      ],
+      "sum": 118,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.51,
+        "delta_pattern": 3.0,
+        "stars": 10.0,
+        "total": 268.61,
+        "rules": {
+          "sum": 118,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 1,
+          "hot": 2,
+          "cold": 2
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 5.59,
+        "seasonal": {
+          "seasonal_sum": 2.41,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            7
+          ],
+          "seasonal_total": 11.41
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 107.1,
+          "aligned_mains": [
+            3,
+            7,
+            26,
+            34,
+            48
+          ],
+          "aligned_stars": [
+            7,
+            12
+          ],
+          "live_mains": [
+            3,
+            7,
+            26,
+            34,
+            48
+          ],
+          "live_stars": [
+            7,
+            12
+          ],
+          "overlap_mains": [
+            3,
+            7,
+            34,
+            48
+          ],
+          "overlap_stars": [
+            7,
+            12
+          ],
+          "core_mains": [
+            3,
+            7
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 26,
+              "gap": 21
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            26,
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 26,
+            "gap": 21
+          },
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 48,
+            "gap": 4
+          },
+          {
+            "number": 7,
+            "gap": 1
+          }
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "score": 267.6349476190476,
+      "main_numbers": [
+        3,
+        16,
+        25,
+        34,
+        48
+      ],
+      "lucky_stars": [
+        5,
+        7
+      ],
+      "sum": 126,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.79,
+        "delta_pattern": 2.0,
+        "stars": 10.0,
+        "total": 267.63,
+        "rules": {
+          "sum": 126,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 2,
+          "hot": 2,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.62,
+        "seasonal": {
+          "seasonal_sum": 9.08,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            7
+          ],
+          "seasonal_total": 23.08
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 93.15,
+          "aligned_mains": [
+            3,
+            16,
+            25,
+            34,
+            48
+          ],
+          "aligned_stars": [
+            7
+          ],
+          "live_mains": [
+            3,
+            16,
+            25,
+            34,
+            48
+          ],
+          "live_stars": [
+            7
+          ],
+          "overlap_mains": [
+            3,
+            16,
+            25,
+            34,
+            48
+          ],
+          "overlap_stars": [
+            7
+          ],
+          "core_mains": [
+            3,
+            16,
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 25,
+            "gap": 9
+          },
+          {
+            "number": 48,
+            "gap": 4
+          },
+          {
+            "number": 16,
+            "gap": 0
+          }
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "score": 266.7311111111111,
+      "main_numbers": [
+        3,
+        7,
+        34,
+        39,
+        48
+      ],
+      "lucky_stars": [
+        3,
+        12
+      ],
+      "sum": 131,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 19.62,
+        "delta_pattern": 1.5,
+        "stars": 10.0,
+        "total": 266.73,
+        "rules": {
+          "sum": 131,
+          "sum_in_band": true,
+          "odd": 3,
+          "even": 2,
+          "parity_ok": true,
+          "low": 2,
+          "high": 3,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 1,
+          "hot": 3,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.11,
+        "seasonal": {
+          "seasonal_sum": 6.75,
+          "seasonal_first_single": 4.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_total": 10.75
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 105.75,
+          "aligned_mains": [
+            3,
+            7,
+            34,
+            39,
+            48
+          ],
+          "aligned_stars": [
+            3,
+            12
+          ],
+          "live_mains": [
+            3,
+            7,
+            34,
+            39,
+            48
+          ],
+          "live_stars": [
+            3,
+            12
+          ],
+          "overlap_mains": [
+            3,
+            7,
+            34,
+            39,
+            48
+          ],
+          "overlap_stars": [
+            3,
+            12
+          ],
+          "core_mains": [
+            3,
+            7
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 48,
+            "gap": 4
+          },
+          {
+            "number": 39,
+            "gap": 2
+          },
+          {
+            "number": 7,
+            "gap": 1
           }
         ]
       }
     },
     {
       "rank": 8,
-      "score": 177.86324285714284,
+      "score": 266.04764761904767,
       "main_numbers": [
-        2,
-        13,
-        21,
-        41,
-        46
+        7,
+        12,
+        25,
+        34,
+        48
       ],
       "lucky_stars": [
-        9,
+        7,
         10
       ],
-      "sum": 123,
+      "sum": 126,
       "breakdown": {
         "sum_rule": 30,
         "parity_rule": 25,
         "high_low_rule": 25,
         "tier_mix_rule": 20,
-        "number_strength": 18.9,
-        "delta_pattern": 7.5,
+        "number_strength": 19.7,
+        "delta_pattern": 5.0,
         "stars": 10.0,
-        "total": 177.86,
+        "total": 266.05,
         "rules": {
-          "sum": 123,
+          "sum": 126,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "hot": 3,
+          "mild": 1,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 7.62,
+        "seasonal": {
+          "seasonal_sum": 9.08,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_star_hints": [
+            7
+          ],
+          "seasonal_total": 23.08
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 88.65,
+          "aligned_mains": [
+            7,
+            12,
+            25,
+            34,
+            48
+          ],
+          "aligned_stars": [
+            7
+          ],
+          "live_mains": [
+            7,
+            12,
+            25,
+            34,
+            48
+          ],
+          "live_stars": [
+            7
+          ],
+          "overlap_mains": [
+            7,
+            12,
+            25,
+            34,
+            48
+          ],
+          "overlap_stars": [
+            7
+          ],
+          "core_mains": [
+            7,
+            12,
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 25,
+            "gap": 9
+          },
+          {
+            "number": 12,
+            "gap": 6
+          },
+          {
+            "number": 48,
+            "gap": 4
+          },
+          {
+            "number": 7,
+            "gap": 1
+          }
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "score": 265.62220158730156,
+      "main_numbers": [
+        3,
+        8,
+        25,
+        34,
+        48
+      ],
+      "lucky_stars": [
+        3,
+        12
+      ],
+      "sum": 118,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 20.27,
+        "delta_pattern": 3.0,
+        "stars": 10.0,
+        "total": 265.62,
+        "rules": {
+          "sum": 118,
+          "sum_in_band": true,
+          "odd": 2,
+          "even": 3,
+          "parity_ok": true,
+          "low": 3,
+          "high": 2,
+          "high_low_ok": true
+        },
+        "tiers": {
+          "mild": 2,
+          "hot": 2,
+          "cold": 1
+        },
+        "pair_cohesion": 12.0,
+        "sum_center": 5.59,
+        "seasonal": {
+          "seasonal_sum": 2.41,
+          "seasonal_low": 5.0,
+          "seasonal_first_single": 4.0,
+          "seasonal_parity": 3.0,
+          "seasonal_survivor_matches": 0,
+          "seasonal_survivors": 0.0,
+          "seasonal_total": 14.41
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 100.35,
+          "aligned_mains": [
+            3,
+            8,
+            25,
+            34,
+            48
+          ],
+          "aligned_stars": [
+            3,
+            12
+          ],
+          "live_mains": [
+            3,
+            8,
+            25,
+            34,
+            48
+          ],
+          "live_stars": [
+            3,
+            12
+          ],
+          "overlap_mains": [
+            3,
+            25,
+            34,
+            48
+          ],
+          "overlap_stars": [
+            3,
+            12
+          ],
+          "core_mains": [
+            3,
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 3,
+              "gap": 18
+            },
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
+        },
+        "origin": "fair_random_simulation",
+        "long_due_mains": [
+          {
+            "number": 34,
+            "gap": 22
+          },
+          {
+            "number": 3,
+            "gap": 18
+          },
+          {
+            "number": 25,
+            "gap": 9
+          },
+          {
+            "number": 8,
+            "gap": 5
+          },
+          {
+            "number": 48,
+            "gap": 4
+          }
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "score": 265.0267063492064,
+      "main_numbers": [
+        7,
+        12,
+        25,
+        34,
+        43
+      ],
+      "lucky_stars": [
+        3,
+        8
+      ],
+      "sum": 121,
+      "breakdown": {
+        "sum_rule": 30,
+        "parity_rule": 25,
+        "high_low_rule": 25,
+        "tier_mix_rule": 20,
+        "number_strength": 18.37,
+        "delta_pattern": 4.5,
+        "stars": 10.0,
+        "total": 265.03,
+        "rules": {
+          "sum": 121,
           "sum_in_band": true,
           "odd": 3,
           "even": 2,
@@ -1297,160 +2917,90 @@
           "cold": 2
         },
         "pair_cohesion": 12.0,
-        "sum_center": 6.86,
+        "sum_center": 6.35,
         "seasonal": {
-          "seasonal_sum": 8.61,
+          "seasonal_sum": 4.91,
           "seasonal_low": 5.0,
           "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
           "seasonal_survivor_matches": 0,
           "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            10
+          "seasonal_total": 13.91
+        },
+        "horoscope": {
+          "profile": "Sagittarius + Moola (Ketu) + live Ireland (Moon in Uttara Bhadrapada, cautious)",
+          "horoscope_total": 99.9,
+          "aligned_mains": [
+            7,
+            12,
+            25,
+            34,
+            43
           ],
-          "seasonal_total": 22.61
+          "aligned_stars": [
+            3,
+            8
+          ],
+          "live_mains": [
+            7,
+            12,
+            25,
+            34,
+            43
+          ],
+          "live_stars": [
+            3,
+            8
+          ],
+          "overlap_mains": [
+            7,
+            12,
+            25,
+            34,
+            43
+          ],
+          "overlap_stars": [
+            3
+          ],
+          "core_mains": [
+            7,
+            12,
+            25
+          ],
+          "overdue_aligned": [
+            {
+              "number": 34,
+              "gap": 22
+            }
+          ],
+          "cold_aligned": [
+            34,
+            43
+          ],
+          "live": true,
+          "judgment_tone": "cautious",
+          "weight": 1.0
         },
         "origin": "fair_random_simulation",
         "long_due_mains": [
           {
-            "number": 41,
-            "gap": 28
+            "number": 34,
+            "gap": 22
           },
           {
-            "number": 21,
-            "gap": 20
-          }
-        ]
-      }
-    },
-    {
-      "rank": 9,
-      "score": 177.73467936507936,
-      "main_numbers": [
-        6,
-        13,
-        21,
-        39,
-        46
-      ],
-      "lucky_stars": [
-        4,
-        6
-      ],
-      "sum": 125,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 19.15,
-        "delta_pattern": 5.5,
-        "stars": 10.0,
-        "total": 177.73,
-        "rules": {
-          "sum": 125,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "mild": 1,
-          "hot": 2
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 7.37,
-        "seasonal": {
-          "seasonal_sum": 9.72,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            6
-          ],
-          "seasonal_total": 23.72
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 6,
-            "gap": 26
+            "number": 25,
+            "gap": 9
           },
           {
-            "number": 21,
-            "gap": 20
-          }
-        ]
-      }
-    },
-    {
-      "rank": 10,
-      "score": 177.61797936507935,
-      "main_numbers": [
-        6,
-        19,
-        25,
-        34,
-        41
-      ],
-      "lucky_stars": [
-        3,
-        6
-      ],
-      "sum": 125,
-      "breakdown": {
-        "sum_rule": 30,
-        "parity_rule": 25,
-        "high_low_rule": 25,
-        "tier_mix_rule": 20,
-        "number_strength": 20.53,
-        "delta_pattern": 4.0,
-        "stars": 10.0,
-        "total": 177.62,
-        "rules": {
-          "sum": 125,
-          "sum_in_band": true,
-          "odd": 3,
-          "even": 2,
-          "parity_ok": true,
-          "low": 3,
-          "high": 2,
-          "high_low_ok": true
-        },
-        "tiers": {
-          "cold": 2,
-          "mild": 2,
-          "hot": 1
-        },
-        "pair_cohesion": 12.0,
-        "sum_center": 7.37,
-        "seasonal": {
-          "seasonal_sum": 9.72,
-          "seasonal_low": 5.0,
-          "seasonal_first_single": 4.0,
-          "seasonal_parity": 3.0,
-          "seasonal_survivor_matches": 0,
-          "seasonal_survivors": 0.0,
-          "seasonal_star_hints": [
-            6
-          ],
-          "seasonal_total": 23.72
-        },
-        "origin": "fair_random_simulation",
-        "long_due_mains": [
-          {
-            "number": 41,
-            "gap": 28
+            "number": 12,
+            "gap": 6
           },
           {
-            "number": 6,
-            "gap": 26
+            "number": 7,
+            "gap": 1
+          },
+          {
+            "number": 43,
+            "gap": 0
           }
         ]
       }
@@ -1458,105 +3008,105 @@
   ],
   "consensus_line": {
     "main_numbers": [
-      4,
-      6,
-      23,
+      3,
+      25,
+      34,
       39,
-      41
+      48
     ],
     "lucky_stars": [
-      6,
-      10
+      7,
+      12
     ],
-    "sum": 113,
+    "sum": 149,
     "tiers": {
-      "cold": 3,
-      "mild": 1,
-      "hot": 1
+      "mild": 2,
+      "cold": 1,
+      "hot": 2
     },
-    "repeat_score": 34,
+    "repeat_score": 43,
     "lines_used": 10,
     "main_appearances": {
-      "4": 5,
-      "6": 4,
-      "23": 5,
-      "39": 3,
-      "41": 7
+      "3": 7,
+      "25": 6,
+      "34": 9,
+      "39": 4,
+      "48": 6
     },
     "star_appearances": {
-      "6": 6,
-      "10": 4
+      "7": 6,
+      "12": 5
     },
     "most_repeated_mains": [
       {
-        "number": 41,
+        "number": 34,
+        "count": 9,
+        "tier": "cold"
+      },
+      {
+        "number": 3,
         "count": 7,
-        "tier": "cold"
-      },
-      {
-        "number": 4,
-        "count": 5,
-        "tier": "cold"
-      },
-      {
-        "number": 23,
-        "count": 5,
-        "tier": "mild"
-      },
-      {
-        "number": 6,
-        "count": 4,
-        "tier": "cold"
-      },
-      {
-        "number": 13,
-        "count": 3,
         "tier": "mild"
       },
       {
         "number": 25,
-        "count": 3,
+        "count": 6,
+        "tier": "mild"
+      },
+      {
+        "number": 48,
+        "count": 6,
         "tier": "hot"
       },
       {
         "number": 39,
-        "count": 3,
+        "count": 4,
         "tier": "hot"
       },
       {
-        "number": 12,
+        "number": 7,
+        "count": 4,
+        "tier": "hot"
+      },
+      {
+        "number": 21,
+        "count": 2,
+        "tier": "cold"
+      },
+      {
+        "number": 30,
         "count": 2,
         "tier": "mild"
       },
       {
-        "number": 45,
+        "number": 16,
         "count": 2,
         "tier": "hot"
       },
       {
-        "number": 16,
+        "number": 12,
         "count": 2,
         "tier": "hot"
       }
     ],
     "most_repeated_stars": [
       {
-        "number": 6,
+        "number": 7,
         "count": 6,
         "tier": "mild"
       },
       {
-        "number": 10,
-        "count": 4,
-        "tier": "mild"
-      },
-      {
-        "number": 4,
-        "count": 3,
+        "number": 12,
+        "count": 5,
         "tier": "mild"
       },
       {
         "number": 3,
+        "count": 5,
+        "tier": "mild"
+      },
+      {
+        "number": 8,
         "count": 2,
         "tier": "mild"
       }
@@ -1564,774 +3114,774 @@
   },
   "top_15_main_numbers_by_score": [
     {
-      "number": 5,
-      "score": 1.4944,
-      "tier": "mild",
-      "weighted_frequency": 3.8,
-      "draws_since_last_seen": 12,
-      "parity": "odd",
-      "field": "low"
-    },
-    {
-      "number": 48,
-      "score": 1.4752,
-      "tier": "mild",
-      "weighted_frequency": 3.99,
-      "draws_since_last_seen": 9,
-      "parity": "even",
-      "field": "high"
-    },
-    {
-      "number": 29,
-      "score": 1.4397,
-      "tier": "mild",
-      "weighted_frequency": 3.35,
-      "draws_since_last_seen": 12,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 34,
-      "score": 1.4378,
-      "tier": "mild",
-      "weighted_frequency": 3.17,
-      "draws_since_last_seen": 15,
-      "parity": "even",
-      "field": "high"
-    },
-    {
-      "number": 45,
-      "score": 1.4299,
+      "number": 47,
+      "score": 1.5015,
       "tier": "hot",
-      "weighted_frequency": 4.51,
-      "draws_since_last_seen": 8,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 6,
-      "score": 1.4094,
-      "tier": "cold",
-      "weighted_frequency": 2.66,
-      "draws_since_last_seen": 26,
-      "parity": "even",
-      "field": "low"
-    },
-    {
-      "number": 42,
-      "score": 1.3945,
-      "tier": "mild",
-      "weighted_frequency": 3.44,
-      "draws_since_last_seen": 8,
-      "parity": "even",
-      "field": "high"
-    },
-    {
-      "number": 26,
-      "score": 1.3862,
-      "tier": "mild",
-      "weighted_frequency": 3.02,
+      "weighted_frequency": 4.46,
       "draws_since_last_seen": 14,
-      "parity": "even",
+      "parity": "odd",
       "field": "high"
     },
     {
       "number": 46,
-      "score": 1.3775,
-      "tier": "hot",
-      "weighted_frequency": 4.36,
-      "draws_since_last_seen": 6,
+      "score": 1.475,
+      "tier": "mild",
+      "weighted_frequency": 3.52,
+      "draws_since_last_seen": 13,
       "parity": "even",
       "field": "high"
     },
     {
-      "number": 35,
-      "score": 1.3758,
-      "tier": "mild",
-      "weighted_frequency": 3.63,
-      "draws_since_last_seen": 5,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 39,
-      "score": 1.3705,
+      "number": 17,
+      "score": 1.4118,
       "tier": "hot",
-      "weighted_frequency": 4.54,
-      "draws_since_last_seen": 4,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 7,
-      "score": 1.3653,
-      "tier": "mild",
-      "weighted_frequency": 3.66,
-      "draws_since_last_seen": 4,
-      "parity": "odd",
-      "field": "low"
-    },
-    {
-      "number": 41,
-      "score": 1.3641,
-      "tier": "cold",
-      "weighted_frequency": 2.49,
-      "draws_since_last_seen": 28,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 37,
-      "score": 1.3541,
-      "tier": "hot",
-      "weighted_frequency": 4.05,
-      "draws_since_last_seen": 7,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 12,
-      "score": 1.3495,
-      "tier": "mild",
-      "weighted_frequency": 4.0,
-      "draws_since_last_seen": 0,
-      "parity": "even",
-      "field": "low"
-    }
-  ],
-  "top_lucky_stars_by_score": [
-    {
-      "number": 9,
-      "score": 1.0,
-      "tier": "mild",
-      "weighted_frequency": 5.57,
-      "draws_since_last_seen": 8
-    },
-    {
-      "number": 4,
-      "score": 1.0,
-      "tier": "mild",
-      "weighted_frequency": 5.96,
-      "draws_since_last_seen": 6
-    },
-    {
-      "number": 5,
-      "score": 1.0,
-      "tier": "mild",
-      "weighted_frequency": 5.55,
-      "draws_since_last_seen": 7
-    },
-    {
-      "number": 6,
-      "score": 1.0,
-      "tier": "mild",
-      "weighted_frequency": 5.91,
-      "draws_since_last_seen": 3
-    },
-    {
-      "number": 2,
-      "score": 1.0,
-      "tier": "mild",
-      "weighted_frequency": 7.11,
-      "draws_since_last_seen": 2
-    },
-    {
-      "number": 10,
-      "score": 1.0,
-      "tier": "mild",
-      "weighted_frequency": 7.29,
-      "draws_since_last_seen": 0
-    }
-  ],
-  "all_main_ranked": [
-    {
-      "number": 5,
-      "score": 1.4944,
-      "tier": "mild",
-      "weighted_frequency": 3.8,
-      "draws_since_last_seen": 12,
-      "parity": "odd",
-      "field": "low"
-    },
-    {
-      "number": 48,
-      "score": 1.4752,
-      "tier": "mild",
-      "weighted_frequency": 3.99,
+      "weighted_frequency": 4.3,
       "draws_since_last_seen": 9,
-      "parity": "even",
-      "field": "high"
-    },
-    {
-      "number": 29,
-      "score": 1.4397,
-      "tier": "mild",
-      "weighted_frequency": 3.35,
-      "draws_since_last_seen": 12,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 34,
-      "score": 1.4378,
-      "tier": "mild",
-      "weighted_frequency": 3.17,
-      "draws_since_last_seen": 15,
-      "parity": "even",
-      "field": "high"
-    },
-    {
-      "number": 45,
-      "score": 1.4299,
-      "tier": "hot",
-      "weighted_frequency": 4.51,
-      "draws_since_last_seen": 8,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 6,
-      "score": 1.4094,
-      "tier": "cold",
-      "weighted_frequency": 2.66,
-      "draws_since_last_seen": 26,
-      "parity": "even",
-      "field": "low"
-    },
-    {
-      "number": 42,
-      "score": 1.3945,
-      "tier": "mild",
-      "weighted_frequency": 3.44,
-      "draws_since_last_seen": 8,
-      "parity": "even",
-      "field": "high"
-    },
-    {
-      "number": 26,
-      "score": 1.3862,
-      "tier": "mild",
-      "weighted_frequency": 3.02,
-      "draws_since_last_seen": 14,
-      "parity": "even",
-      "field": "high"
-    },
-    {
-      "number": 46,
-      "score": 1.3775,
-      "tier": "hot",
-      "weighted_frequency": 4.36,
-      "draws_since_last_seen": 6,
-      "parity": "even",
-      "field": "high"
-    },
-    {
-      "number": 35,
-      "score": 1.3758,
-      "tier": "mild",
-      "weighted_frequency": 3.63,
-      "draws_since_last_seen": 5,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 39,
-      "score": 1.3705,
-      "tier": "hot",
-      "weighted_frequency": 4.54,
-      "draws_since_last_seen": 4,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 7,
-      "score": 1.3653,
-      "tier": "mild",
-      "weighted_frequency": 3.66,
-      "draws_since_last_seen": 4,
-      "parity": "odd",
-      "field": "low"
-    },
-    {
-      "number": 41,
-      "score": 1.3641,
-      "tier": "cold",
-      "weighted_frequency": 2.49,
-      "draws_since_last_seen": 28,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 37,
-      "score": 1.3541,
-      "tier": "hot",
-      "weighted_frequency": 4.05,
-      "draws_since_last_seen": 7,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 12,
-      "score": 1.3495,
-      "tier": "mild",
-      "weighted_frequency": 4.0,
-      "draws_since_last_seen": 0,
-      "parity": "even",
-      "field": "low"
-    },
-    {
-      "number": 50,
-      "score": 1.346,
-      "tier": "mild",
-      "weighted_frequency": 3.85,
-      "draws_since_last_seen": 1,
-      "parity": "even",
-      "field": "high"
-    },
-    {
-      "number": 3,
-      "score": 1.3374,
-      "tier": "hot",
-      "weighted_frequency": 3.45,
-      "draws_since_last_seen": 11,
-      "parity": "odd",
-      "field": "low"
-    },
-    {
-      "number": 19,
-      "score": 1.3367,
-      "tier": "mild",
-      "weighted_frequency": 3.27,
-      "draws_since_last_seen": 6,
       "parity": "odd",
       "field": "low"
     },
     {
       "number": 2,
-      "score": 1.3313,
-      "tier": "hot",
-      "weighted_frequency": 3.86,
-      "draws_since_last_seen": 7,
+      "score": 1.4115,
+      "tier": "mild",
+      "weighted_frequency": 3.12,
+      "draws_since_last_seen": 14,
       "parity": "even",
       "field": "low"
-    },
-    {
-      "number": 16,
-      "score": 1.3233,
-      "tier": "hot",
-      "weighted_frequency": 4.49,
-      "draws_since_last_seen": 1,
-      "parity": "even",
-      "field": "low"
-    },
-    {
-      "number": 23,
-      "score": 1.3208,
-      "tier": "mild",
-      "weighted_frequency": 3.15,
-      "draws_since_last_seen": 7,
-      "parity": "odd",
-      "field": "low"
-    },
-    {
-      "number": 13,
-      "score": 1.3092,
-      "tier": "mild",
-      "weighted_frequency": 3.54,
-      "draws_since_last_seen": 1,
-      "parity": "odd",
-      "field": "low"
-    },
-    {
-      "number": 38,
-      "score": 1.3036,
-      "tier": "mild",
-      "weighted_frequency": 3.61,
-      "draws_since_last_seen": 0,
-      "parity": "even",
-      "field": "high"
     },
     {
       "number": 28,
-      "score": 1.3029,
-      "tier": "hot",
-      "weighted_frequency": 4.09,
-      "draws_since_last_seen": 3,
+      "score": 1.4028,
+      "tier": "mild",
+      "weighted_frequency": 3.31,
+      "draws_since_last_seen": 10,
       "parity": "even",
       "field": "high"
     },
     {
       "number": 25,
-      "score": 1.2963,
-      "tier": "hot",
-      "weighted_frequency": 4.15,
-      "draws_since_last_seen": 2,
+      "score": 1.3986,
+      "tier": "mild",
+      "weighted_frequency": 3.36,
+      "draws_since_last_seen": 9,
       "parity": "odd",
       "field": "low"
     },
     {
-      "number": 44,
-      "score": 1.2922,
-      "tier": "hot",
-      "weighted_frequency": 4.24,
-      "draws_since_last_seen": 1,
-      "parity": "even",
-      "field": "high"
+      "number": 5,
+      "score": 1.3903,
+      "tier": "mild",
+      "weighted_frequency": 3.99,
+      "draws_since_last_seen": 3,
+      "parity": "odd",
+      "field": "low"
     },
     {
       "number": 30,
-      "score": 1.2885,
-      "tier": "hot",
-      "weighted_frequency": 4.09,
-      "draws_since_last_seen": 2,
-      "parity": "even",
-      "field": "high"
-    },
-    {
-      "number": 49,
-      "score": 1.2796,
+      "score": 1.3882,
       "tier": "mild",
-      "weighted_frequency": 3.41,
-      "draws_since_last_seen": 0,
-      "parity": "odd",
+      "weighted_frequency": 3.3,
+      "draws_since_last_seen": 9,
+      "parity": "even",
       "field": "high"
     },
     {
-      "number": 4,
-      "score": 1.2778,
-      "tier": "cold",
-      "weighted_frequency": 2.15,
-      "draws_since_last_seen": 30,
-      "parity": "even",
-      "field": "low"
-    },
-    {
-      "number": 33,
-      "score": 1.2734,
+      "number": 3,
+      "score": 1.3818,
       "tier": "mild",
-      "weighted_frequency": 3.07,
-      "draws_since_last_seen": 5,
+      "weighted_frequency": 2.78,
+      "draws_since_last_seen": 18,
       "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 31,
-      "score": 1.2664,
-      "tier": "cold",
-      "weighted_frequency": 2.6,
-      "draws_since_last_seen": 16,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 47,
-      "score": 1.2645,
-      "tier": "hot",
-      "weighted_frequency": 5.52,
-      "draws_since_last_seen": 7,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 8,
-      "score": 1.2576,
-      "tier": "hot",
-      "weighted_frequency": 5.1,
-      "draws_since_last_seen": 2,
-      "parity": "even",
       "field": "low"
     },
     {
       "number": 14,
-      "score": 1.2375,
+      "score": 1.3807,
       "tier": "hot",
-      "weighted_frequency": 5.14,
+      "weighted_frequency": 4.16,
+      "draws_since_last_seen": 8,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 31,
+      "score": 1.3733,
+      "tier": "mild",
+      "weighted_frequency": 3.84,
+      "draws_since_last_seen": 3,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 45,
+      "score": 1.353,
+      "tier": "hot",
+      "weighted_frequency": 4.56,
+      "draws_since_last_seen": 3,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 49,
+      "score": 1.3418,
+      "tier": "mild",
+      "weighted_frequency": 3.7,
+      "draws_since_last_seen": 2,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 12,
+      "score": 1.3414,
+      "tier": "hot",
+      "weighted_frequency": 4.06,
+      "draws_since_last_seen": 6,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 34,
+      "score": 1.3407,
+      "tier": "cold",
+      "weighted_frequency": 2.56,
+      "draws_since_last_seen": 22,
+      "parity": "even",
+      "field": "high"
+    }
+  ],
+  "top_lucky_stars_by_score": [
+    {
+      "number": 12,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 6.84,
+      "draws_since_last_seen": 7
+    },
+    {
+      "number": 2,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 6.6,
+      "draws_since_last_seen": 5
+    },
+    {
+      "number": 6,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.75,
+      "draws_since_last_seen": 1
+    },
+    {
+      "number": 5,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.4,
+      "draws_since_last_seen": 3
+    },
+    {
+      "number": 1,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 4.66,
+      "draws_since_last_seen": 11
+    },
+    {
+      "number": 9,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 4.5,
+      "draws_since_last_seen": 15
+    }
+  ],
+  "all_main_ranked": [
+    {
+      "number": 47,
+      "score": 1.5015,
+      "tier": "hot",
+      "weighted_frequency": 4.46,
+      "draws_since_last_seen": 14,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 46,
+      "score": 1.475,
+      "tier": "mild",
+      "weighted_frequency": 3.52,
+      "draws_since_last_seen": 13,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 17,
+      "score": 1.4118,
+      "tier": "hot",
+      "weighted_frequency": 4.3,
+      "draws_since_last_seen": 9,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 2,
+      "score": 1.4115,
+      "tier": "mild",
+      "weighted_frequency": 3.12,
+      "draws_since_last_seen": 14,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 28,
+      "score": 1.4028,
+      "tier": "mild",
+      "weighted_frequency": 3.31,
+      "draws_since_last_seen": 10,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 25,
+      "score": 1.3986,
+      "tier": "mild",
+      "weighted_frequency": 3.36,
+      "draws_since_last_seen": 9,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 5,
+      "score": 1.3903,
+      "tier": "mild",
+      "weighted_frequency": 3.99,
+      "draws_since_last_seen": 3,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 30,
+      "score": 1.3882,
+      "tier": "mild",
+      "weighted_frequency": 3.3,
+      "draws_since_last_seen": 9,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 3,
+      "score": 1.3818,
+      "tier": "mild",
+      "weighted_frequency": 2.78,
+      "draws_since_last_seen": 18,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 14,
+      "score": 1.3807,
+      "tier": "hot",
+      "weighted_frequency": 4.16,
+      "draws_since_last_seen": 8,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 31,
+      "score": 1.3733,
+      "tier": "mild",
+      "weighted_frequency": 3.84,
+      "draws_since_last_seen": 3,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 45,
+      "score": 1.353,
+      "tier": "hot",
+      "weighted_frequency": 4.56,
+      "draws_since_last_seen": 3,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 49,
+      "score": 1.3418,
+      "tier": "mild",
+      "weighted_frequency": 3.7,
+      "draws_since_last_seen": 2,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 12,
+      "score": 1.3414,
+      "tier": "hot",
+      "weighted_frequency": 4.06,
+      "draws_since_last_seen": 6,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 34,
+      "score": 1.3407,
+      "tier": "cold",
+      "weighted_frequency": 2.56,
+      "draws_since_last_seen": 22,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 29,
+      "score": 1.3357,
+      "tier": "cold",
+      "weighted_frequency": 2.7,
+      "draws_since_last_seen": 19,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 22,
+      "score": 1.3332,
+      "tier": "hot",
+      "weighted_frequency": 4.51,
       "draws_since_last_seen": 1,
       "parity": "even",
       "field": "low"
     },
     {
-      "number": 17,
-      "score": 1.2251,
+      "number": 39,
+      "score": 1.332,
       "tier": "hot",
-      "weighted_frequency": 5.32,
+      "weighted_frequency": 4.61,
       "draws_since_last_seen": 2,
       "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 50,
+      "score": 1.3253,
+      "tier": "mild",
+      "weighted_frequency": 3.11,
+      "draws_since_last_seen": 8,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 48,
+      "score": 1.3194,
+      "tier": "hot",
+      "weighted_frequency": 4.11,
+      "draws_since_last_seen": 4,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 6,
+      "score": 1.319,
+      "tier": "mild",
+      "weighted_frequency": 2.15,
+      "draws_since_last_seen": 33,
+      "parity": "even",
       "field": "low"
     },
     {
-      "number": 11,
-      "score": 1.2209,
+      "number": 8,
+      "score": 1.3178,
+      "tier": "hot",
+      "weighted_frequency": 4.98,
+      "draws_since_last_seen": 5,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 23,
+      "score": 1.3161,
       "tier": "mild",
-      "weighted_frequency": 3.14,
-      "draws_since_last_seen": 0,
+      "weighted_frequency": 3.48,
+      "draws_since_last_seen": 2,
       "parity": "odd",
       "field": "low"
     },
     {
       "number": 15,
-      "score": 1.203,
-      "tier": "mild",
-      "weighted_frequency": 3.07,
+      "score": 1.3041,
+      "tier": "hot",
+      "weighted_frequency": 4.45,
       "draws_since_last_seen": 0,
       "parity": "odd",
       "field": "low"
     },
     {
-      "number": 24,
-      "score": 1.1962,
+      "number": 42,
+      "score": 1.2982,
       "tier": "cold",
-      "weighted_frequency": 2.32,
-      "draws_since_last_seen": 16,
+      "weighted_frequency": 2.78,
+      "draws_since_last_seen": 15,
       "parity": "even",
-      "field": "low"
+      "field": "high"
     },
     {
       "number": 18,
-      "score": 1.158,
-      "tier": "cold",
-      "weighted_frequency": 2.89,
-      "draws_since_last_seen": 3,
+      "score": 1.2964,
+      "tier": "mild",
+      "weighted_frequency": 3.22,
+      "draws_since_last_seen": 4,
       "parity": "even",
       "field": "low"
     },
     {
-      "number": 40,
-      "score": 1.1554,
+      "number": 26,
+      "score": 1.2963,
       "tier": "cold",
       "weighted_frequency": 2.44,
-      "draws_since_last_seen": 11,
+      "draws_since_last_seen": 21,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 35,
+      "score": 1.2946,
+      "tier": "hot",
+      "weighted_frequency": 4.76,
+      "draws_since_last_seen": 1,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 37,
+      "score": 1.2828,
+      "tier": "hot",
+      "weighted_frequency": 4.27,
+      "draws_since_last_seen": 0,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 19,
+      "score": 1.2748,
+      "tier": "mild",
+      "weighted_frequency": 2.64,
+      "draws_since_last_seen": 13,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 13,
+      "score": 1.2621,
+      "tier": "mild",
+      "weighted_frequency": 2.86,
+      "draws_since_last_seen": 8,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 44,
+      "score": 1.2436,
+      "tier": "hot",
+      "weighted_frequency": 5.2,
+      "draws_since_last_seen": 2,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 38,
+      "score": 1.2224,
+      "tier": "cold",
+      "weighted_frequency": 2.92,
+      "draws_since_last_seen": 7,
       "parity": "even",
       "field": "high"
     },
     {
       "number": 10,
-      "score": 1.1425,
+      "score": 1.2135,
       "tier": "hot",
-      "weighted_frequency": 5.96,
+      "weighted_frequency": 5.68,
+      "draws_since_last_seen": 5,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 33,
+      "score": 1.181,
+      "tier": "cold",
+      "weighted_frequency": 2.48,
+      "draws_since_last_seen": 12,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 41,
+      "score": 1.1741,
+      "tier": "cold",
+      "weighted_frequency": 2.89,
+      "draws_since_last_seen": 4,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 7,
+      "score": 1.1661,
+      "tier": "hot",
+      "weighted_frequency": 5.62,
+      "draws_since_last_seen": 1,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 11,
+      "score": 1.1651,
+      "tier": "mild",
+      "weighted_frequency": 2.54,
+      "draws_since_last_seen": 7,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 4,
+      "score": 1.159,
+      "tier": "mild",
+      "weighted_frequency": 2.57,
+      "draws_since_last_seen": 6,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 16,
+      "score": 1.1548,
+      "tier": "hot",
+      "weighted_frequency": 5.6,
+      "draws_since_last_seen": 0,
+      "parity": "even",
+      "field": "low"
+    },
+    {
+      "number": 40,
+      "score": 1.134,
+      "tier": "cold",
+      "weighted_frequency": 1.97,
+      "draws_since_last_seen": 18,
+      "parity": "even",
+      "field": "high"
+    },
+    {
+      "number": 24,
+      "score": 1.1332,
+      "tier": "cold",
+      "weighted_frequency": 2.79,
       "draws_since_last_seen": 3,
       "parity": "even",
       "field": "low"
     },
     {
       "number": 36,
-      "score": 1.1116,
+      "score": 1.1175,
       "tier": "cold",
-      "weighted_frequency": 1.88,
-      "draws_since_last_seen": 18,
+      "weighted_frequency": 1.52,
+      "draws_since_last_seen": 25,
       "parity": "even",
       "field": "high"
     },
     {
-      "number": 27,
-      "score": 1.0323,
-      "tier": "cold",
-      "weighted_frequency": 2.23,
-      "draws_since_last_seen": 6,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
-      "number": 43,
-      "score": 1.0279,
-      "tier": "cold",
-      "weighted_frequency": 1.17,
-      "draws_since_last_seen": 38,
-      "parity": "odd",
-      "field": "high"
-    },
-    {
       "number": 9,
-      "score": 1.0186,
+      "score": 1.0665,
+      "tier": "mild",
+      "weighted_frequency": 2.54,
+      "draws_since_last_seen": 0,
+      "parity": "odd",
+      "field": "low"
+    },
+    {
+      "number": 27,
+      "score": 1.0212,
       "tier": "cold",
-      "weighted_frequency": 1.9,
+      "weighted_frequency": 1.8,
+      "draws_since_last_seen": 13,
+      "parity": "odd",
+      "field": "high"
+    },
+    {
+      "number": 1,
+      "score": 0.9729,
+      "tier": "cold",
+      "weighted_frequency": 1.72,
       "draws_since_last_seen": 11,
       "parity": "odd",
       "field": "low"
     },
     {
-      "number": 22,
-      "score": 0.9873,
+      "number": 43,
+      "score": 0.8757,
       "tier": "cold",
-      "weighted_frequency": 2.22,
-      "draws_since_last_seen": 3,
-      "parity": "even",
-      "field": "low"
+      "weighted_frequency": 1.94,
+      "draws_since_last_seen": 0,
+      "parity": "odd",
+      "field": "high"
     },
     {
-      "number": 1,
-      "score": 0.9792,
+      "number": 21,
+      "score": 0.8553,
       "tier": "cold",
-      "weighted_frequency": 2.13,
-      "draws_since_last_seen": 4,
+      "weighted_frequency": 1.75,
+      "draws_since_last_seen": 2,
       "parity": "odd",
       "field": "low"
     },
     {
       "number": 20,
-      "score": 0.9675,
+      "score": 0.8466,
       "tier": "cold",
-      "weighted_frequency": 0.93,
-      "draws_since_last_seen": 37,
+      "weighted_frequency": 1.67,
+      "draws_since_last_seen": 3,
       "parity": "even",
       "field": "low"
     },
     {
-      "number": 21,
-      "score": 0.9166,
-      "tier": "cold",
-      "weighted_frequency": 1.01,
-      "draws_since_last_seen": 20,
-      "parity": "odd",
-      "field": "low"
-    },
-    {
       "number": 32,
-      "score": 0.8845,
+      "score": 0.7866,
       "tier": "cold",
-      "weighted_frequency": 0.61,
-      "draws_since_last_seen": 39,
+      "weighted_frequency": 1.37,
+      "draws_since_last_seen": 4,
       "parity": "even",
       "field": "high"
     }
   ],
   "all_stars_ranked": [
     {
-      "number": 9,
+      "number": 12,
       "score": 1.0,
       "tier": "mild",
-      "weighted_frequency": 5.57,
-      "draws_since_last_seen": 8
-    },
-    {
-      "number": 4,
-      "score": 1.0,
-      "tier": "mild",
-      "weighted_frequency": 5.96,
-      "draws_since_last_seen": 6
-    },
-    {
-      "number": 5,
-      "score": 1.0,
-      "tier": "mild",
-      "weighted_frequency": 5.55,
+      "weighted_frequency": 6.84,
       "draws_since_last_seen": 7
-    },
-    {
-      "number": 6,
-      "score": 1.0,
-      "tier": "mild",
-      "weighted_frequency": 5.91,
-      "draws_since_last_seen": 3
     },
     {
       "number": 2,
       "score": 1.0,
       "tier": "mild",
-      "weighted_frequency": 7.11,
-      "draws_since_last_seen": 2
+      "weighted_frequency": 6.6,
+      "draws_since_last_seen": 5
     },
     {
-      "number": 10,
+      "number": 6,
       "score": 1.0,
       "tier": "mild",
-      "weighted_frequency": 7.29,
-      "draws_since_last_seen": 0
+      "weighted_frequency": 5.75,
+      "draws_since_last_seen": 1
+    },
+    {
+      "number": 5,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 5.4,
+      "draws_since_last_seen": 3
     },
     {
       "number": 1,
       "score": 1.0,
       "tier": "mild",
-      "weighted_frequency": 5.76,
-      "draws_since_last_seen": 4
+      "weighted_frequency": 4.66,
+      "draws_since_last_seen": 11
     },
     {
-      "number": 12,
+      "number": 9,
       "score": 1.0,
       "tier": "mild",
-      "weighted_frequency": 8.46,
-      "draws_since_last_seen": 0
+      "weighted_frequency": 4.5,
+      "draws_since_last_seen": 15
     },
     {
-      "number": 8,
+      "number": 4,
       "score": 1.0,
       "tier": "mild",
-      "weighted_frequency": 3.98,
-      "draws_since_last_seen": 12
+      "weighted_frequency": 6.72,
+      "draws_since_last_seen": 1
     },
     {
       "number": 11,
       "score": 1.0,
       "tier": "mild",
-      "weighted_frequency": 4.05,
+      "weighted_frequency": 5.04,
+      "draws_since_last_seen": 2
+    },
+    {
+      "number": 8,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 4.94,
       "draws_since_last_seen": 4
+    },
+    {
+      "number": 10,
+      "score": 1.0,
+      "tier": "mild",
+      "weighted_frequency": 9.55,
+      "draws_since_last_seen": 0
     },
     {
       "number": 7,
       "score": 1.0,
       "tier": "mild",
-      "weighted_frequency": 3.49,
-      "draws_since_last_seen": 5
+      "weighted_frequency": 3.82,
+      "draws_since_last_seen": 0
     },
     {
       "number": 3,
       "score": 1.0,
       "tier": "mild",
-      "weighted_frequency": 3.53,
-      "draws_since_last_seen": 2
+      "weighted_frequency": 2.85,
+      "draws_since_last_seen": 9
     }
   ],
   "main_tiers": {
-    "8": "hot",
+    "7": "hot",
     "10": "hot",
-    "14": "hot",
-    "17": "hot",
-    "47": "hot",
     "16": "hot",
-    "25": "hot",
-    "28": "hot",
-    "30": "hot",
+    "44": "hot",
+    "8": "hot",
+    "12": "hot",
+    "14": "hot",
+    "15": "hot",
+    "17": "hot",
+    "22": "hot",
+    "35": "hot",
     "37": "hot",
     "39": "hot",
-    "44": "hot",
     "45": "hot",
-    "46": "hot",
-    "2": "hot",
-    "3": "hot",
+    "47": "hot",
+    "48": "hot",
+    "2": "mild",
     "5": "mild",
-    "7": "mild",
-    "11": "mild",
-    "12": "mild",
-    "13": "mild",
-    "15": "mild",
-    "19": "mild",
+    "18": "mild",
     "23": "mild",
-    "26": "mild",
-    "29": "mild",
-    "33": "mild",
-    "34": "mild",
-    "35": "mild",
-    "38": "mild",
-    "42": "mild",
-    "48": "mild",
+    "25": "mild",
+    "28": "mild",
+    "30": "mild",
+    "31": "mild",
+    "46": "mild",
     "49": "mild",
     "50": "mild",
-    "1": "cold",
-    "4": "cold",
-    "6": "cold",
-    "18": "cold",
-    "22": "cold",
+    "3": "mild",
+    "4": "mild",
+    "6": "mild",
+    "9": "mild",
+    "11": "mild",
+    "13": "mild",
+    "19": "mild",
     "24": "cold",
-    "27": "cold",
-    "31": "cold",
-    "40": "cold",
+    "26": "cold",
+    "29": "cold",
+    "33": "cold",
+    "34": "cold",
+    "38": "cold",
     "41": "cold",
-    "9": "cold",
-    "21": "cold",
-    "36": "cold",
-    "43": "cold",
+    "42": "cold",
+    "1": "cold",
     "20": "cold",
-    "32": "cold"
+    "21": "cold",
+    "27": "cold",
+    "32": "cold",
+    "36": "cold",
+    "40": "cold",
+    "43": "cold"
   },
   "star_tiers": {
     "1": "mild",

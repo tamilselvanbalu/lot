@@ -126,6 +126,20 @@ python3 hybrid_seasonal_draw.py --morning --pool 50000 --ticket-from pool --no-p
 
 Output: `seasonal_fusion_predictions.json`. Flags: `--ticket-from long-due|pool|random|top`, `--long-due-gap`, `--long-due-min`, `--no-position-filter`, `--verbose`.
 
+**Horoscope align (Sagittarius + Moola + live sky):** birth lucky numbers merged with **today’s Vedic transit** for Ireland (Moon nakshatra, weekday lord, Jupiter/Ketu signs via Skyfield + Lahiri). Extra weight when birth∩today numbers are also overdue/cold. Does not change jackpot odds.
+
+```bash
+# Needs venv (skyfield): python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+.venv/bin/python hybrid_seasonal_draw.py --morning --pool 50000 --no-position-filter \
+  --ticket-from top --horoscope sagittarius-moola
+
+# Static birth numbers only (no live planets)
+.venv/bin/python hybrid_seasonal_draw.py --morning --pool 50000 --horoscope sagittarius-moola \
+  --no-live-horoscope --ticket-from top --no-position-filter
+```
+
+Flags: `--horoscope-place ireland`, `--no-live-horoscope`, `--horoscope-min-mains`, `--horoscope-min-stars`, `--horoscope-weight`.
+
 ---
 
 ## Project layout
@@ -134,6 +148,8 @@ Output: `seasonal_fusion_predictions.json`. Flags: `--ticket-from long-due|pool|
 |------|------|
 | `hybrid_draw.py` | CLI — standard fusion draw |
 | `hybrid_seasonal_draw.py` | CLI — fusion + seasonal_analysis bias |
+| `horoscope_align.py` | Sagittarius/Moola + live transit merge |
+| `vedic_transit.py` | Skyfield Lahiri Moon nakshatra / day lord |
 | `seasonal_scoring.py` | Seasonal fit scoring (imported) |
 | `update_results.py` | Fetch / merge draws |
 | `generate_predictions.py` | Shared rules, consensus, tiers (imported) |

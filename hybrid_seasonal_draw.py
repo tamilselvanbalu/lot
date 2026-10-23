@@ -45,6 +45,14 @@ from hybrid_draw import (
     random_valid_ticket,
     resolve_play_ticket,
 )
+from horoscope_align import (
+    get_profile,
+    line_meets_horoscope,
+    list_profiles,
+    resolve_horoscope_profile,
+    score_horoscope_fit,
+)
+from vedic_transit import list_places
 from prediction_engine import rank_numbers_enhanced, score_line_enhanced
 from seasonal_scoring import (
     build_seasonal_context,
@@ -85,6 +93,10 @@ def build_seasonal_fusion_pool(
     exclude_stars: set[int] | None = None,
     long_due_gap: int = 0,
     long_due_min: int = 0,
+    horoscope_profile: dict | None = None,
+    horoscope_min_mains: int = 2,
+    horoscope_min_stars: int = 1,
+    horoscope_weight: float = 1.0,
 ) -> tuple[list[tuple[float, list[int], list[int], dict]], dict, int, dict | None, dict[int, int]]:
     attempts = 0
     sum_band = compute_sum_band(draws)[:2]
@@ -107,6 +119,8 @@ def build_seasonal_fusion_pool(
         attempt_mult = 25
     if long_due_min > 0:
         attempt_mult += 20 + long_due_min * 8
+    if horoscope_profile:
+        attempt_mult += 25 + horoscope_min_mains * 10 + horoscope_min_stars * 8
     max_attempts = pool_size * attempt_mult
 
     while len(candidates) < pool_size and attempts < max_attempts:
@@ -123,6 +137,14 @@ def build_seasonal_fusion_pool(
         if ticket is None:
             continue
         main, stars = ticket
+        if horoscope_profile and not line_meets_horoscope(
+            main,
+            stars,
+            horoscope_profile,
+            min_mains=horoscope_min_mains,
+            min_stars=horoscope_min_stars,
+        ):
+            continue
         key = tuple(main + stars)
         if key in seen:
             continue
@@ -130,9 +152,21 @@ def build_seasonal_fusion_pool(
         base, breakdown = score_line_enhanced(main, stars, ctx, sum_band, top_deltas)
         seasonal_pts, s_break = score_seasonal_fit(main, stars, seasonal_ctx, seasonal_weight)
         breakdown["seasonal"] = s_break
+        horo_pts = 0.0
+        if horoscope_profile:
+            horo_pts, h_break = score_horoscope_fit(
+                main,
+                stars,
+                horoscope_profile,
+                main_gaps=main_gaps,
+                main_tiers=ctx["main_tiers"],
+                long_due_gap=long_due_gap or 15,
+                weight=horoscope_weight,
+            )
+            breakdown["horoscope"] = h_break
         breakdown["origin"] = "fair_random_simulation"
         breakdown["long_due_mains"] = long_due_mains_on_line(main, main_gaps, long_due_gap)
-        total = base + seasonal_pts
+        total = base + seasonal_pts + horo_pts
         breakdown["total"] = round(total, 2)
         candidates.append((total, main, stars, breakdown))
 
@@ -265,10 +299,22 @@ def build_seasonal_output(
     seasonal_weight: float = 1.0,
     long_due_gap: int = 15,
     long_due_min: int = 2,
+    horoscope_name: str | None = None,
+    horoscope_min_mains: int = 2,
+    horoscope_min_stars: int = 1,
+    horoscope_weight: float = 1.0,
+    horoscope_live: bool = True,
+    horoscope_place: str = "ireland",
     include_enhanced_reference: bool = False,
 ) -> dict:
     month, half, _ = play_calendar(play_when)
     seasonal_ctx = build_seasonal_context(seasonal_analysis, month, half)
+    horoscope_profile = resolve_horoscope_profile(
+        horoscope_name,
+        play_when,
+        live=horoscope_live,
+        place=horoscope_place,
+    )
 
     use_long_due = ticket_from == "long-due"
     fusion_candidates, ctx, pool_attempts, position_limits, main_gaps = build_seasonal_fusion_pool(
@@ -284,6 +330,10 @@ def build_seasonal_output(
         exclude_stars=exclude_stars,
         long_due_gap=long_due_gap if use_long_due else 0,
         long_due_min=long_due_min if use_long_due else 0,
+        horoscope_profile=horoscope_profile,
+        horoscope_min_mains=horoscope_min_mains,
+        horoscope_min_stars=horoscope_min_stars,
+        horoscope_weight=horoscope_weight,
     )
     fusion_lines = select_diverse_lines(fusion_candidates, top_n, max_per_star_pair=2)
 
@@ -307,9 +357,29 @@ def build_seasonal_output(
         main_gaps=main_gaps,
         long_due_gap=long_due_gap if use_long_due else 0,
     )
+    if play_line and horoscope_profile:
+        horo = (play_line.get("breakdown") or {}).get("horoscope")
+        if not horo:
+            _, horo = score_horoscope_fit(
+                play_line["main_numbers"],
+                play_line["lucky_stars"],
+                horoscope_profile,
+                main_gaps=main_gaps,
+                main_tiers=ctx["main_tiers"],
+                long_due_gap=long_due_gap if use_long_due else 15,
+                weight=horoscope_weight,
+            )
+        play_line["horoscope"] = horo
     position_ranges = (
         analyze_sorted_positions(draws, band_pct=position_band) if position_filter else None
     )
+
+    horo_filter = ""
+    if horoscope_profile:
+        horo_filter = (
+            f", horoscope {horoscope_name} "
+            f"(≥{horoscope_min_mains} mains, ≥{horoscope_min_stars} stars)"
+        )
 
     return {
         "mode": "seasonal_fusion",
@@ -319,6 +389,31 @@ def build_seasonal_output(
         "play_date": play_when.isoformat(),
         "seasonal_context": seasonal_ctx,
         "seasonal_analysis_file": str(analysis_path),
+        "horoscope": {
+            "profile": horoscope_name,
+            "label": horoscope_profile.get("label") if horoscope_profile else None,
+            "live": bool(horoscope_profile.get("live")) if horoscope_profile else False,
+            "place": horoscope_place if horoscope_profile else None,
+            "mains": list(horoscope_profile["mains"]) if horoscope_profile else [],
+            "stars": list(horoscope_profile["stars"]) if horoscope_profile else [],
+            "live_mains": list(horoscope_profile.get("live_mains") or [])
+            if horoscope_profile
+            else [],
+            "live_stars": list(horoscope_profile.get("live_stars") or [])
+            if horoscope_profile
+            else [],
+            "overlap_mains": list(horoscope_profile.get("overlap_mains") or [])
+            if horoscope_profile
+            else [],
+            "overlap_stars": list(horoscope_profile.get("overlap_stars") or [])
+            if horoscope_profile
+            else [],
+            "transit": horoscope_profile.get("transit") if horoscope_profile else None,
+            "judgment": horoscope_profile.get("judgment") if horoscope_profile else None,
+            "min_mains": horoscope_min_mains if horoscope_profile else None,
+            "min_stars": horoscope_min_stars if horoscope_profile else None,
+            "weight": horoscope_weight if horoscope_profile else None,
+        },
         "position_filter": position_filter,
         "position_band": position_band,
         "position_limits": position_limits,
@@ -326,6 +421,7 @@ def build_seasonal_output(
         "sum_band": {"min": sum_lo, "max": sum_hi},
         "disclaimer": (
             "Seasonal fusion adds a soft month/half bias from seasonal_analysis.json. "
+            "Horoscope alignment is traditional preference only. "
             "Draws remain random; this does not improve jackpot odds."
         ),
         "draws_analyzed": len(draws),
@@ -343,6 +439,10 @@ def build_seasonal_output(
             "seasonal_half": half,
             "long_due_gap": long_due_gap if use_long_due else None,
             "long_due_min": long_due_min if use_long_due else None,
+            "horoscope": horoscope_name,
+            "horoscope_live": horoscope_live if horoscope_profile else None,
+            "horoscope_place": horoscope_place if horoscope_profile else None,
+            "horoscope_weight": horoscope_weight if horoscope_profile else None,
         },
         "unique_approach": [
             "Random: fair mechanical draw (secrets)",
@@ -358,8 +458,14 @@ def build_seasonal_output(
                     if use_long_due
                     else ""
                 )
+                + horo_filter
             ),
-            "Rank: enhanced history score + seasonal month/half bonus (reference only)",
+            (
+                "Rank: enhanced history + seasonal + horoscope "
+                "(aligned ∩ overdue/cold get extra weight; reference only)"
+                if horoscope_profile
+                else "Rank: enhanced history score + seasonal month/half bonus (reference only)"
+            ),
             "Stars: flat scoring by default (more variety)",
             (
                 f"Pick: dead random from {pool_size:,} valid tickets with long-due mains"
@@ -416,11 +522,19 @@ def run_morning(args: argparse.Namespace) -> None:
         seasonal_weight=args.seasonal_weight,
         long_due_gap=args.long_due_gap,
         long_due_min=args.long_due_min,
+        horoscope_name=args.horoscope,
+        horoscope_min_mains=args.horoscope_min_mains,
+        horoscope_min_stars=args.horoscope_min_stars,
+        horoscope_weight=args.horoscope_weight,
+        horoscope_live=not args.no_live_horoscope,
+        horoscope_place=args.horoscope_place,
     )
     if quiet:
         print_compact_ticket(out.get("play_line"))
     else:
         print_seasonal_banner(out["seasonal_context"], args.seasonal_weight, args.seasonal_file)
+        if out.get("horoscope", {}).get("profile"):
+            print_horoscope_banner(out["horoscope"])
         latest = draws[0]["date"] if draws else "?"
         print_morning_ticket(out.get("play_line"), len(draws), latest)
     if args.explain and not quiet:
@@ -430,6 +544,50 @@ def run_morning(args: argparse.Namespace) -> None:
         args.output.write_text(json.dumps(out, indent=2) + "\n", encoding="utf-8")
         if not quiet:
             print(f"Full details saved: {args.output}")
+
+
+def print_horoscope_banner(horo: dict) -> None:
+    print("--- HOROSCOPE ALIGN ---")
+    print(f"  Profile: {horo.get('label') or horo.get('profile')}")
+    live = horo.get("live")
+    print(f"  Live sky: {'yes' if live else 'no (static birth numbers only)'}")
+    if horo.get("place"):
+        print(f"  Place:    {horo['place']}")
+    transit = horo.get("transit") or {}
+    if transit:
+        nak = transit.get("moon_nakshatra") or {}
+        print(
+            f"  When:     {transit.get('when_local')}  "
+            f"({transit.get('place')})"
+        )
+        print(
+            f"  Moon:     {nak.get('name')} pada {nak.get('pada')} "
+            f"(lord {nak.get('lord')}, # {nak.get('planet_number')})  "
+            f"rashi { (transit.get('moon_rashi') or {}).get('name') }"
+        )
+        print(
+            f"  Day lord: {transit.get('day_lord')} (#{transit.get('day_number')})  |  "
+            f"Jupiter in {(transit.get('jupiter_rashi') or {}).get('name')}  |  "
+            f"Ketu in {(transit.get('ketu_rashi') or {}).get('name')}"
+        )
+    judgment = horo.get("judgment") or {}
+    if judgment:
+        print(f"  Judgment: {judgment.get('tone')} (score {judgment.get('score')})")
+        for note in (judgment.get("notes") or [])[:4]:
+            print(f"    • {note}")
+    mains = ", ".join(f"{n:02d}" for n in horo.get("mains") or [])
+    stars = ", ".join(f"{n:02d}" for n in horo.get("stars") or [])
+    print(f"  Filter mains: {mains}")
+    print(f"  Filter stars: {stars}")
+    if live:
+        om = ", ".join(f"{n:02d}" for n in horo.get("overlap_mains") or [])
+        os_ = ", ".join(f"{n:02d}" for n in horo.get("overlap_stars") or [])
+        print(f"  Birth∩today mains: [{om}]  stars: [{os_}]")
+    print(
+        f"  Require: ≥{horo.get('min_mains')} aligned mains, "
+        f"≥{horo.get('min_stars')} aligned stars  |  weight={horo.get('weight')}"
+    )
+    print()
 
 
 def main() -> None:
@@ -509,6 +667,43 @@ def main() -> None:
         default=None,
         help="Simulate seasonal window for date YYYY-MM-DD (default: today)",
     )
+    parser.add_argument(
+        "--horoscope",
+        default=None,
+        metavar="PROFILE",
+        help=(
+            "Align tickets to traditional lucky numbers. "
+            f"Profiles: {', '.join(list_profiles())}"
+        ),
+    )
+    parser.add_argument(
+        "--horoscope-min-mains",
+        type=int,
+        default=2,
+        help="Min aligned main numbers required when --horoscope is set (default 2)",
+    )
+    parser.add_argument(
+        "--horoscope-min-stars",
+        type=int,
+        default=1,
+        help="Min aligned lucky stars required when --horoscope is set (default 1)",
+    )
+    parser.add_argument(
+        "--horoscope-weight",
+        type=float,
+        default=1.0,
+        help="Multiplier on horoscope bonus (extra for aligned ∩ overdue/cold)",
+    )
+    parser.add_argument(
+        "--no-live-horoscope",
+        action="store_true",
+        help="Use static birth lucky numbers only (skip today's Moon/planets)",
+    )
+    parser.add_argument(
+        "--horoscope-place",
+        default="ireland",
+        help=f"Place for local sky time. Choices: {', '.join(list_places())} (default ireland)",
+    )
     args = parser.parse_args()
 
     if not 0 < args.position_band <= 100:
@@ -517,6 +712,12 @@ def main() -> None:
         raise SystemExit("--long-due-gap must be >= 1")
     if args.long_due_min < 1 or args.long_due_min > 5:
         raise SystemExit("--long-due-min must be between 1 and 5")
+    if args.horoscope_min_mains < 0 or args.horoscope_min_mains > 5:
+        raise SystemExit("--horoscope-min-mains must be between 0 and 5")
+    if args.horoscope_min_stars < 0 or args.horoscope_min_stars > 2:
+        raise SystemExit("--horoscope-min-stars must be between 0 and 2")
+    if args.horoscope:
+        get_profile(args.horoscope)  # validate early
 
     if args.morning and not args.verbose:
         args.quiet = True
@@ -549,12 +750,20 @@ def main() -> None:
         seasonal_weight=args.seasonal_weight,
         long_due_gap=args.long_due_gap,
         long_due_min=args.long_due_min,
+        horoscope_name=args.horoscope,
+        horoscope_min_mains=args.horoscope_min_mains,
+        horoscope_min_stars=args.horoscope_min_stars,
+        horoscope_weight=args.horoscope_weight,
+        horoscope_live=not args.no_live_horoscope,
+        horoscope_place=args.horoscope_place,
         include_enhanced_reference=False,
     )
     if args.quiet:
         print_compact_ticket(out.get("play_line"))
     else:
         print_seasonal_banner(out["seasonal_context"], args.seasonal_weight, args.seasonal_file)
+        if out.get("horoscope", {}).get("profile"):
+            print_horoscope_banner(out["horoscope"])
         print_seasonal_fusion_report(out)
         if args.explain and out.get("play_line"):
             print_morning_explanation(out)

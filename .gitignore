@@ -1,4 +1,5 @@
 .venv/
+.skyfield/
 __pycache__/
 *.pyc
 seasonal_features.csv
